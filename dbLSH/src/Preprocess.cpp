@@ -90,27 +90,6 @@ vector<vector<float>> readFVecsFromExternal(string filepath, int maxRow=-1) {
 
 void Preprocess::load_data(const std::string& path)
 {
-	std::string file = path + "_new";
-	std::ifstream in(file.c_str(), std::ios::binary);
-	while (!in) {
-		printf("Fail to find data file!\n");
-		exit(0);
-	}
-
-	unsigned int header[3] = {};
-	assert(sizeof header == 3 * 4);
-	in.read((char*)header, sizeof(header));
-	assert(header[0] == sizeof(float));
-	data.N = header[1];
-	data.dim = header[2];
-
-	data.val = new float* [data.N];
-	for (int i = 0; i < data.N; ++i) {
-		data.val[i] = new float[data.dim];
-		//in.seekg(sizeof(float), std::ios::cur);
-		in.read((char*)data.val[i], sizeof(float) * header[2]);
-	}
-
 	vector<vector<float>> base = readFVecsFromExternal(path+"base.fvecs");
 	data.N = base.size();
 	data.dim = base[0].size();
@@ -132,13 +111,12 @@ void Preprocess::load_data(const std::string& path)
 		}
 	}
 
-	std::cout << "Load from new file: " << file << "\n";
+	std::cout << "Load from new file: " << path << "\n";
 	std::cout << "N=    " << data.N << "\n";
 	std::cout << "dim=  " << data.dim << "\n\n";
+	std::cout << "Qnum=  " << data.numQuery << "\n\n";
 	std::cout << "size of base=  " << sizeof(&(data.val)) << "\n\n";
 	std::cout << "size of query=  " << sizeof(&(data.query)) << "\n\n";
-
-	in.close();
 }
 
 //void Preprocess::load_data(const std::string& path)
