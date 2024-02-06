@@ -107,7 +107,7 @@ void Preprocess::load_data(const std::string& path)
 	for (int i = 0; i < data.numQuery; ++i) {
 		data.query[i] = new float[data.dim];
 		for (int j=0;j<query[i].size();j++) {
-			data.val[i][j]=query[i][j];
+			data.query[i][j]=query[i][j];
 		}
 	}
 	for (int i = 0; i < data.numQuery; ++i) {
