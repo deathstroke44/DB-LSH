@@ -3,6 +3,8 @@
 #include <cmath>
 #include <assert.h>
 #include <unordered_map>
+#include <string>
+
 
 class Preprocess
 {
@@ -55,5 +57,3 @@ public:
 	Parameter(Preprocess& prep, unsigned L_, unsigned K_, float rmin_);
 	~Parameter();
 };
-
-
