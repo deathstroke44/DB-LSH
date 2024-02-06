@@ -110,6 +110,7 @@ void Preprocess::load_data(const std::string& path)
 			data.query[i][j]=query[i][j];
 		}
 	}
+	
 	for (int i = 0; i < data.numQuery; ++i) {
 		for (int j=0;j<query[i].size();j++) {
 			float t = data.val[i][j]=query[i][j];
