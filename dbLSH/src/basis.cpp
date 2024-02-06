@@ -102,19 +102,19 @@ void set_rmin(std::string& datatsetName, float& R_min)
 	if (datatsetName == "audio") {
 		R_min = 0.3f;
 	}
-	else if (datatsetName == "mnist") {
+	else if (datatsetName == "MNIST") {
 		R_min = 500.0f;
 	}
 	else if (datatsetName == "cifar") {
 		R_min = 300.0f;
 	}
-	else if (datatsetName == "deep1m") {
+	else if (datatsetName == "deep") {
 		R_min = 0.2f;
 	}
-	else if (datatsetName == "NUS") {
+	else if (datatsetName == "nuswide") {
 		R_min = 6.50f;
 	}
-	else if (datatsetName == "Trevi") {
+	else if (datatsetName == "trevi") {
 		R_min = 700.0f;
 	}
 	else if (datatsetName == "gist") {

@@ -88,15 +88,15 @@ int main(int argc, char const* argv[])
 	std::cout << "L=        " << L << std::endl;
 	std::cout << "K=        " << K << std::endl;
 	std::cout << "beta=     " << beta << std::endl;
-	//std::cout << "R_min=    " << R_min << std::endl << std::endl;
+	std::cout << "R_min=    " << R_min << std::endl << std::endl;
 
-	#if defined(unix) || defined(__unix__)
-		std::string data_fold = "./../dataset/", index_fold = "";
-	#else
-		std::string data_fold = "E:/Dataset_for_c/", index_fold = "";
-	#endif
-
-	Preprocess prep(data_fold + datasetName + ".data", data_fold + "ANN/" + datasetName + ".bench");
+	// #if defined(unix) || defined(__unix__)
+	// 	std::string data_fold = "./../dataset/", index_fold = "";
+	// #else
+	// 	std::string data_fold = "E:/Dataset_for_c/", index_fold = "";
+	// #endif
+	std::string data_fold = "/data/kabir/similarity-search/dataset/", index_fold = "";
+	Preprocess prep(k, data_fold + datasetName + "/", data_fold + "ANN/" + datasetName + ".bench");
 
 	showMemoryInfo();
 
@@ -129,7 +129,7 @@ int main(int argc, char const* argv[])
 void lshknn(float c, int k, Hash& myslsh, Preprocess& prep, float beta, std::string& datasetName, std::string& data_fold) {
 	lsh::timer timer;
 	std::cout << std::endl << "RUNNING QUERY ..." << std::endl;
-	int Qnum = 100;
+	int Qnum = prep.data.numQuery;
 	lsh::progress_display pd(Qnum);
 	Performance perform;
 	for (unsigned j = 0; j < Qnum; j++)
@@ -146,6 +146,7 @@ void lshknn(float c, int k, Hash& myslsh, Preprocess& prep, float beta, std::str
 	//std::cout << "SORT TIME:         " << ((float)perform.time_sift) / (perform.num) << std::endl;
 	//std::cout << "AVG QUERY TIME:    " << (float)perform.time_verify / perform.num * 1000 << "ms." << std::endl << std::endl;
 	std::cout << "AVG RECALL:        " << ((float)perform.NN_num) / (perform.num * k) << std::endl;
+	std::cout << (float)perform.NN_num <<" "<< (perform.num * k) <<" " <<k<< std::endl;
 	std::cout << "AVG RATIO:         " << ((float)perform.ratio) / (perform.res_num) << std::endl;
 	std::cout << "AVG COST:          " << ((float)perform.cost) / ((float)perform.num * prep.data.N) << std::endl;
 	std::cout << "AVG ROUNDS:        " << ((float)perform.rounds) / (perform.num) << std::endl;

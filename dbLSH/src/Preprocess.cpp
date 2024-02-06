@@ -10,15 +10,18 @@
 #include <sstream>
 #include <numeric>
 #include<algorithm>
+using namespace std; 
+
 
 #define E 2.718281746
 #define PI 3.1415926
 
 #define min(a,b)            (((a) < (b)) ? (a) : (b))
 
-Preprocess::Preprocess(const std::string& path, const std::string& ben_file_)
+Preprocess::Preprocess(int _k, const std::string& path, const std::string& ben_file_)
 {
 	lsh::timer timer;
+	k = _k;
 	std::cout << "LOADING DATA..." << std::endl;
 	timer.restart();
 	load_data(path);
@@ -49,6 +52,42 @@ Preprocess::Preprocess(const std::string& path, const std::string& ben_file_, fl
 	}
 }
 
+
+vector<vector<float>> readFVecsFromExternal(string filepath, int maxRow=-1) {
+  FILE *infile = fopen(filepath.c_str(), "rb");
+  vector<vector<float>> data= {};
+  if (infile == NULL) {
+    std::cout << "File not found" << std::endl;
+    return data;
+  }
+  
+  int rowCt = 0;
+  int dimen;
+  while (true) {
+    if (fread(&dimen, sizeof(int), 1, infile) == 0) {
+      break;
+    }
+    std::vector<float> v(dimen);
+    if(fread(v.data(), sizeof(float), dimen, infile) == 0) {
+      std::cout << "Error when reading" << std::endl;
+    };
+    
+	data.push_back(v);
+
+    rowCt++;
+    
+    if (maxRow != -1 && rowCt >= maxRow) {
+      break;
+    }
+  }
+  // std::cout<<"Row count test: "<<rowCt<<std::endl;
+
+  if (fclose(infile)) {
+    std::cout << "Could not close data file" << std::endl;
+  }
+  return data;
+}
+
 void Preprocess::load_data(const std::string& path)
 {
 	std::string file = path + "_new";
@@ -72,14 +111,32 @@ void Preprocess::load_data(const std::string& path)
 		in.read((char*)data.val[i], sizeof(float) * header[2]);
 	}
 
-	int MaxQueryNum = min(200, (int)data.N - 1);
-	data.query = data.val;
-	data.val = &(data.query[MaxQueryNum]);
-	data.N -= MaxQueryNum;
+	vector<vector<float>> base = readFVecsFromExternal(path+"base.fvecs");
+	data.N = base.size();
+	data.dim = base[0].size();
+	data.val = new float* [data.N];
+	for (int i = 0; i < data.N; ++i) {
+		data.val[i] = new float[data.dim];
+		//in.seekg(sizeof(float), std::ios::cur);
+		for (int j=0;j<base[i].size();j++) {
+			data.val[i][j]=base[i][j];
+		}
+	}
+	vector<vector<float>> query = readFVecsFromExternal(path+"query.fvecs");
+	data.numQuery = query.size();
+	data.query = new float* [data.numQuery];
+	for (int i = 0; i < data.numQuery; ++i) {
+		data.query[i] = new float[data.dim];
+		for (int j=0;j<query[i].size();j++) {
+			data.val[i][j]=query[i][j];
+		}
+	}
 
 	std::cout << "Load from new file: " << file << "\n";
 	std::cout << "N=    " << data.N << "\n";
 	std::cout << "dim=  " << data.dim << "\n\n";
+	std::cout << "size of base=  " << sizeof(&(data.val)) << "\n\n";
+	std::cout << "size of query=  " << sizeof(&(data.query)) << "\n\n";
 
 	in.close();
 }
@@ -194,8 +251,9 @@ bool comp(const Tuple& a, const Tuple& b)
 
 void Preprocess::ben_make()
 {
-	int MaxQueryNum = min(200, (int)data.N - 201);
-	benchmark.N = MaxQueryNum, benchmark.num = 100;
+	int MaxQueryNum = data.numQuery;
+	benchmark.N = MaxQueryNum, benchmark.num = k;
+	cout<<"Benchmark k updated to: "<<k<<endl;
 	benchmark.indice = new int* [benchmark.N];
 	benchmark.dist = new float* [benchmark.N];
 	for (unsigned j = 0; j < benchmark.N; j++) {
@@ -272,7 +330,7 @@ void Preprocess::ben_create()
 	std::ifstream in(ben_file.c_str(), std::ios::binary);
 	in.read((char*)&a_test, sizeof(unsigned));
 	in.close();
-	if (a_test > 0 && a_test < data.N)//ÅÐ¶ÏÊÇ·ñÄÜ¸ÄÐ´a_test
+	if (a_test > 0 && a_test < data.N)//ï¿½Ð¶ï¿½ï¿½Ç·ï¿½ï¿½Ü¸ï¿½Ð´a_test
 	{
 		std::cout << "LOADING BENMARK..." << std::endl;
 		timer.restart();
@@ -297,9 +355,9 @@ void Preprocess::ben_create()
 
 Preprocess::~Preprocess()
 {
-	int MaxQueryNum = min(200, (int)data.N - 201);
+	int MaxQueryNum = data.numQuery;
 
-	clear_2d_array(data.query, data.N + MaxQueryNum);
+	clear_2d_array(data.query, data.N + data.numQuery);
 	//clear_2d_array(Dists, MaxQueryNum);
 	clear_2d_array(benchmark.indice, benchmark.N);
 	clear_2d_array(benchmark.dist, benchmark.N);
