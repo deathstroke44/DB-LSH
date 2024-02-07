@@ -140,6 +140,30 @@ void Performance::update(Query &query, Preprocess &prep)
 	set1.clear();
 	set2.clear();
 
+	float ap = 0;
+    for (int r=1; r<=query.k; r++) {
+        bool isR_kExact = false;
+        for (int j=0; j<query.k; j++) {
+            if (query.res[r-1].id == prep.benchmark.indice[query.flag][j]) {
+                isR_kExact = true;
+                break;
+            }
+        }
+        if (isR_kExact) {
+            int ct = 0;
+            for (int j=0; j<r; j++) {
+                for (int jj=0; jj<r; jj++) {
+                    if (query.res[j].id == prep.benchmark.indice[query.flag][jj]) {
+                        ct++;
+                        break;
+                    }
+                }
+            }
+            ap += (double)ct/r;
+        }
+    }
+	MAP+=ap/query.k;
+
 	for (unsigned j = 0; j < num0; j++)
 	{
 		float rate = query.res[j].dist / prep.benchmark.dist[query.flag][j];
