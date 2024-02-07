@@ -159,30 +159,30 @@ void lshknn(float c, int k, Hash& myslsh, Preprocess& prep, float beta, std::str
 	time_t zero_point = 1635153971;//Let me set the time at 2021.10.25. 17:27 as the zero point
 	float date = ((float)(now - zero_point)) / 86400;
 
-	std::string fpath = data_fold + "ANN/";
+	// std::string fpath = data_fold + "ANN/";
 
-	if (!GenericTool::CheckPathExistence(fpath.c_str())) {
-		GenericTool::EnsurePathExistence(fpath.c_str());
-		std::cout << BOLDGREEN << "WARNING:\n" << GREEN << "Could not find the path of result file. Have created it. \n"
-			<< "The query result will be stored in: " << fpath.c_str() << RESET;
-	}
-	std::ofstream os(fpath + "DB-LSH_result.csv", std::ios_base::app);
-	if (os) {
-		os.seekp(0, std::ios_base::end); // move to the end of file
-		int tmp = (int)os.tellp();
-		if (tmp == 0) {
-			os << "Dataset,c,k,L,K,R_min,RATIO,RECALL,AVG_TIME,COST,DATE" << std::endl;
-		}
-		std::string dataset = datasetName;
-		os << dataset << ',' << c << ',' << k << ',' << myslsh.L << ',' << myslsh.K << ',' << myslsh.R_min << ','
-			<< ((float)perform.ratio) / (perform.res_num) << ','
-			<< ((float)perform.NN_num) / (perform.num * k) << ','
-			<< mean_time * 1000 << ','
-			<< ((float)perform.cost) / (perform.num * prep.data.N) << ','
-			<< date << ','
-			<< std::endl;
-		os.close();
-	}
+	// if (!GenericTool::CheckPathExistence(fpath.c_str())) {
+	// 	GenericTool::EnsurePathExistence(fpath.c_str());
+	// 	std::cout << BOLDGREEN << "WARNING:\n" << GREEN << "Could not find the path of result file. Have created it. \n"
+	// 		<< "The query result will be stored in: " << fpath.c_str() << RESET;
+	// }
+	// std::ofstream os(fpath + "DB-LSH_result.csv", std::ios_base::app);
+	// if (os) {
+	// 	os.seekp(0, std::ios_base::end); // move to the end of file
+	// 	int tmp = (int)os.tellp();
+	// 	if (tmp == 0) {
+	// 		os << "Dataset,c,k,L,K,R_min,RATIO,RECALL,AVG_TIME,COST,DATE" << std::endl;
+	// 	}
+	// 	std::string dataset = datasetName;
+	// 	os << dataset << ',' << c << ',' << k << ',' << myslsh.L << ',' << myslsh.K << ',' << myslsh.R_min << ','
+	// 		<< ((float)perform.ratio) / (perform.res_num) << ','
+	// 		<< ((float)perform.NN_num) / (perform.num * k) << ','
+	// 		<< mean_time * 1000 << ','
+	// 		<< ((float)perform.cost) / (perform.num * prep.data.N) << ','
+	// 		<< date << ','
+	// 		<< std::endl;
+	// 	os.close();
+	// }
 }
 
 void expe_k(float c, Hash& myslsh, Preprocess& prep, float beta, std::string& datasetName, std::string& data_fold) {
