@@ -1,4 +1,4 @@
-﻿// PM_LSH.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+// PM_LSH.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include <iostream>
@@ -106,6 +106,7 @@ int main(int argc, char const* argv[])
 
 	if (beta > 0) {
 		lshknn(c, k, myslsh, prep, beta, datasetName, data_fold);
+		cout<<"Reach here"<<endl;
 	}
 	else if (beta <= 0 && beta > -10) {
 		std::vector<float> Betas = { 0.02,0.04,0.06,0.08,0.10,0.12,0.14,0.16,0.18,0.2 };
@@ -123,7 +124,7 @@ int main(int argc, char const* argv[])
 	}
 
 	
-
+	cout<<"Reach here"<<endl;
 	return 0;
 }
 
@@ -155,9 +156,9 @@ void lshknn(float c, int k, Hash& myslsh, Preprocess& prep, float beta, std::str
 	//std::cout << "AVG ACCESSES:      " << ((float)perform.num_access_in_RTree) / (perform.num) << std::endl;
 	std::cout << "\nQUERY FINISH... \n\n\n";
 
-	time_t now = std::time(0);
-	time_t zero_point = 1635153971;//Let me set the time at 2021.10.25. 17:27 as the zero point
-	float date = ((float)(now - zero_point)) / 86400;
+	// time_t now = std::time(0);
+	// time_t zero_point = 1635153971;//Let me set the time at 2021.10.25. 17:27 as the zero point
+	// float date = ((float)(now - zero_point)) / 86400;
 
 	// std::string fpath = data_fold + "ANN/";
 
@@ -242,3 +243,4 @@ void expe_k(float c, Hash& myslsh, Preprocess& prep, float beta, std::string& da
 	}
 	
 }
+
