@@ -17,28 +17,28 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 0.032586s.
+LOADING TIME: 0.036118s.
 
 LOADING BENMARK...
-LOADING TIME: 3.1e-05s.
+LOADING TIME: 2.9e-05s.
 
 
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.000163s.
+SETTING TIME: 0.000165s.
 
 COMPUTING HASH...
-COMPUTING TIME: 0.061215s.
+COMPUTING TIME: 0.06194s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
-The 0-th R*-Tree has been built. Elapsed time: 0.027s
+The 0-th R*-Tree has been built. Elapsed time: 0.028s
 The 1-th R*-Tree has been built. Elapsed time: 0.028s
 The 2-th R*-Tree has been built. Elapsed time: 0.028s
 The 3-th R*-Tree has been built. Elapsed time: 0.028s
 The 4-th R*-Tree has been built. Elapsed time: 0.028s
-BUILDING TIME: 0.138278s.
+BUILDING TIME: 0.13947s.
 
 
 RUNNING QUERY ...
@@ -46,7 +46,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    4.01938ms.
+AVG QUERY TIME:    4.08975ms.
+
+TOTAL QUERY TIME:    817.95ms.
 
 AVG RECALL:        0.974
 AVG MAP:        0.960732
@@ -79,28 +81,28 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 1.12784s.
+LOADING TIME: 1.12138s.
 
 LOADING BENMARK...
-LOADING TIME: 2.3e-05s.
+LOADING TIME: 2.2e-05s.
 
 
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.000128s.
+SETTING TIME: 0.000134s.
 
 COMPUTING HASH...
-COMPUTING TIME: 2.63823s.
+COMPUTING TIME: 2.63058s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
-The 0-th R*-Tree has been built. Elapsed time: 2.530s
+The 0-th R*-Tree has been built. Elapsed time: 2.529s
 The 1-th R*-Tree has been built. Elapsed time: 2.588s
-The 2-th R*-Tree has been built. Elapsed time: 2.566s
-The 3-th R*-Tree has been built. Elapsed time: 2.558s
-The 4-th R*-Tree has been built. Elapsed time: 2.590s
-BUILDING TIME: 12.8328s.
+The 2-th R*-Tree has been built. Elapsed time: 2.558s
+The 3-th R*-Tree has been built. Elapsed time: 2.534s
+The 4-th R*-Tree has been built. Elapsed time: 2.575s
+BUILDING TIME: 12.7847s.
 
 
 RUNNING QUERY ...
@@ -108,7 +110,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    74.1496ms.
+AVG QUERY TIME:    73.6456ms.
+
+TOTAL QUERY TIME:    14729.1ms.
 
 AVG RECALL:        0.073
 AVG MAP:        0.0441681
@@ -141,28 +145,28 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 0.159414s.
+LOADING TIME: 0.156544s.
 
 LOADING BENMARK...
-LOADING TIME: 2.4e-05s.
+LOADING TIME: 2.3e-05s.
 
 
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.000115s.
+SETTING TIME: 0.000113s.
 
 COMPUTING HASH...
-COMPUTING TIME: 0.320712s.
+COMPUTING TIME: 0.296295s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
-The 0-th R*-Tree has been built. Elapsed time: 0.257s
-The 1-th R*-Tree has been built. Elapsed time: 0.239s
-The 2-th R*-Tree has been built. Elapsed time: 0.239s
-The 3-th R*-Tree has been built. Elapsed time: 0.234s
-The 4-th R*-Tree has been built. Elapsed time: 0.233s
-BUILDING TIME: 1.20139s.
+The 0-th R*-Tree has been built. Elapsed time: 0.239s
+The 1-th R*-Tree has been built. Elapsed time: 0.234s
+The 2-th R*-Tree has been built. Elapsed time: 0.237s
+The 3-th R*-Tree has been built. Elapsed time: 0.237s
+The 4-th R*-Tree has been built. Elapsed time: 0.231s
+BUILDING TIME: 1.1791s.
 
 
 RUNNING QUERY ...
@@ -170,7 +174,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    34.3264ms.
+AVG QUERY TIME:    33.8263ms.
+
+TOTAL QUERY TIME:    6765.26ms.
 
 AVG RECALL:        0.959
 AVG MAP:        0.937554
@@ -203,28 +209,28 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 0.482601s.
+LOADING TIME: 0.472205s.
 
 LOADING BENMARK...
-LOADING TIME: 2.2e-05s.
+LOADING TIME: 2.3e-05s.
 
 
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.000116s.
+SETTING TIME: 0.000119s.
 
 COMPUTING HASH...
-COMPUTING TIME: 1.00702s.
+COMPUTING TIME: 0.990836s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
-The 0-th R*-Tree has been built. Elapsed time: 0.990s
-The 1-th R*-Tree has been built. Elapsed time: 0.968s
-The 2-th R*-Tree has been built. Elapsed time: 0.987s
-The 3-th R*-Tree has been built. Elapsed time: 0.982s
-The 4-th R*-Tree has been built. Elapsed time: 0.993s
-BUILDING TIME: 4.9193s.
+The 0-th R*-Tree has been built. Elapsed time: 0.960s
+The 1-th R*-Tree has been built. Elapsed time: 0.953s
+The 2-th R*-Tree has been built. Elapsed time: 0.955s
+The 3-th R*-Tree has been built. Elapsed time: 0.957s
+The 4-th R*-Tree has been built. Elapsed time: 0.956s
+BUILDING TIME: 4.78161s.
 
 
 RUNNING QUERY ...
@@ -232,7 +238,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    99.8001ms.
+AVG QUERY TIME:    96.5008ms.
+
+TOTAL QUERY TIME:    19300.2ms.
 
 AVG RECALL:        0.972
 AVG MAP:        0.958498
@@ -265,28 +273,28 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 0.078714s.
+LOADING TIME: 0.076494s.
 
 LOADING BENMARK...
-LOADING TIME: 2.3e-05s.
+LOADING TIME: 2.2e-05s.
 
 
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.000392s.
+SETTING TIME: 0.000396s.
 
 COMPUTING HASH...
-COMPUTING TIME: 0.155432s.
+COMPUTING TIME: 0.163051s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
-The 0-th R*-Tree has been built. Elapsed time: 0.026s
+The 0-th R*-Tree has been built. Elapsed time: 0.027s
 The 1-th R*-Tree has been built. Elapsed time: 0.025s
 The 2-th R*-Tree has been built. Elapsed time: 0.025s
 The 3-th R*-Tree has been built. Elapsed time: 0.025s
 The 4-th R*-Tree has been built. Elapsed time: 0.025s
-BUILDING TIME: 0.125703s.
+BUILDING TIME: 0.127599s.
 
 
 RUNNING QUERY ...
@@ -294,7 +302,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    1.17506ms.
+AVG QUERY TIME:    1.10053ms.
+
+TOTAL QUERY TIME:    220.106ms.
 
 AVG RECALL:        0.0695
 AVG MAP:        0.0159937
@@ -327,7 +337,7 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 0.341669s.
+LOADING TIME: 0.338356s.
 
 LOADING BENMARK...
 LOADING TIME: 2.3e-05s.
@@ -336,10 +346,10 @@ LOADING TIME: 2.3e-05s.
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.001014s.
+SETTING TIME: 0.001007s.
 
 COMPUTING HASH...
-COMPUTING TIME: 0.863074s.
+COMPUTING TIME: 0.865063s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
@@ -347,8 +357,8 @@ The 0-th R*-Tree has been built. Elapsed time: 0.040s
 The 1-th R*-Tree has been built. Elapsed time: 0.040s
 The 2-th R*-Tree has been built. Elapsed time: 0.039s
 The 3-th R*-Tree has been built. Elapsed time: 0.040s
-The 4-th R*-Tree has been built. Elapsed time: 0.040s
-BUILDING TIME: 0.198925s.
+The 4-th R*-Tree has been built. Elapsed time: 0.039s
+BUILDING TIME: 0.198566s.
 
 
 RUNNING QUERY ...
@@ -356,7 +366,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    13.9566ms.
+AVG QUERY TIME:    13.9098ms.
+
+TOTAL QUERY TIME:    2781.95ms.
 
 AVG RECALL:        0.902
 AVG MAP:        0.856442
@@ -389,7 +401,7 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 1.142s.
+LOADING TIME: 1.15167s.
 
 LOADING BENMARK...
 LOADING TIME: 2.2e-05s.
@@ -398,19 +410,19 @@ LOADING TIME: 2.2e-05s.
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.000328s.
+SETTING TIME: 0.000332s.
 
 COMPUTING HASH...
-COMPUTING TIME: 2.71053s.
+COMPUTING TIME: 2.61696s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
-The 0-th R*-Tree has been built. Elapsed time: 0.867s
-The 1-th R*-Tree has been built. Elapsed time: 0.883s
-The 2-th R*-Tree has been built. Elapsed time: 0.870s
-The 3-th R*-Tree has been built. Elapsed time: 0.848s
-The 4-th R*-Tree has been built. Elapsed time: 0.843s
-BUILDING TIME: 4.31206s.
+The 0-th R*-Tree has been built. Elapsed time: 0.855s
+The 1-th R*-Tree has been built. Elapsed time: 0.845s
+The 2-th R*-Tree has been built. Elapsed time: 0.850s
+The 3-th R*-Tree has been built. Elapsed time: 0.827s
+The 4-th R*-Tree has been built. Elapsed time: 0.851s
+BUILDING TIME: 4.22731s.
 
 
 RUNNING QUERY ...
@@ -418,7 +430,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    87.2057ms.
+AVG QUERY TIME:    84.0038ms.
+
+TOTAL QUERY TIME:    16800.8ms.
 
 AVG RECALL:        0.993
 AVG MAP:        0.987871
@@ -451,19 +465,19 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 0.155435s.
+LOADING TIME: 0.16033s.
 
 LOADING BENMARK...
-LOADING TIME: 2.1e-05s.
+LOADING TIME: 2.2e-05s.
 
 
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.000591s.
+SETTING TIME: 0.000595s.
 
 COMPUTING HASH...
-COMPUTING TIME: 0.341358s.
+COMPUTING TIME: 0.340416s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
@@ -472,7 +486,7 @@ The 1-th R*-Tree has been built. Elapsed time: 0.035s
 The 2-th R*-Tree has been built. Elapsed time: 0.035s
 The 3-th R*-Tree has been built. Elapsed time: 0.035s
 The 4-th R*-Tree has been built. Elapsed time: 0.035s
-BUILDING TIME: 0.176253s.
+BUILDING TIME: 0.176154s.
 
 
 RUNNING QUERY ...
@@ -480,7 +494,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    2.749ms.
+AVG QUERY TIME:    2.78038ms.
+
+TOTAL QUERY TIME:    556.076ms.
 
 AVG RECALL:        0.09925
 AVG MAP:        0.0361339
@@ -513,7 +529,7 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 0.365697s.
+LOADING TIME: 0.37096s.
 
 LOADING BENMARK...
 LOADING TIME: 2.2e-05s.
@@ -522,19 +538,19 @@ LOADING TIME: 2.2e-05s.
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.000385s.
+SETTING TIME: 0.00039s.
 
 COMPUTING HASH...
-COMPUTING TIME: 0.839198s.
+COMPUTING TIME: 0.834657s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
-The 0-th R*-Tree has been built. Elapsed time: 0.173s
-The 1-th R*-Tree has been built. Elapsed time: 0.188s
-The 2-th R*-Tree has been built. Elapsed time: 0.177s
-The 3-th R*-Tree has been built. Elapsed time: 0.174s
-The 4-th R*-Tree has been built. Elapsed time: 0.192s
-BUILDING TIME: 0.90449s.
+The 0-th R*-Tree has been built. Elapsed time: 0.174s
+The 1-th R*-Tree has been built. Elapsed time: 0.175s
+The 2-th R*-Tree has been built. Elapsed time: 0.175s
+The 3-th R*-Tree has been built. Elapsed time: 0.179s
+The 4-th R*-Tree has been built. Elapsed time: 0.178s
+BUILDING TIME: 0.881017s.
 
 
 RUNNING QUERY ...
@@ -542,7 +558,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    27.5741ms.
+AVG QUERY TIME:    27.2032ms.
+
+TOTAL QUERY TIME:    5440.64ms.
 
 AVG RECALL:        0.607
 AVG MAP:        0.44302
@@ -575,28 +593,28 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 0.115726s.
+LOADING TIME: 0.115204s.
 
 LOADING BENMARK...
-LOADING TIME: 2.2e-05s.
+LOADING TIME: 2.1e-05s.
 
 
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.000398s.
+SETTING TIME: 0.000392s.
 
 COMPUTING HASH...
-COMPUTING TIME: 0.246583s.
+COMPUTING TIME: 0.247022s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
 The 0-th R*-Tree has been built. Elapsed time: 0.033s
-The 1-th R*-Tree has been built. Elapsed time: 0.032s
+The 1-th R*-Tree has been built. Elapsed time: 0.033s
 The 2-th R*-Tree has been built. Elapsed time: 0.032s
 The 3-th R*-Tree has been built. Elapsed time: 0.033s
-The 4-th R*-Tree has been built. Elapsed time: 0.032s
-BUILDING TIME: 0.162841s.
+The 4-th R*-Tree has been built. Elapsed time: 0.033s
+BUILDING TIME: 0.16398s.
 
 
 RUNNING QUERY ...
@@ -604,7 +622,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    8.80783ms.
+AVG QUERY TIME:    8.94278ms.
+
+TOTAL QUERY TIME:    1788.56ms.
 
 AVG RECALL:        0.8565
 AVG MAP:        0.778925
@@ -637,28 +657,28 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 0.739511s.
+LOADING TIME: 0.744991s.
 
 LOADING BENMARK...
-LOADING TIME: 2.3e-05s.
+LOADING TIME: 2.2e-05s.
 
 
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.000215s.
+SETTING TIME: 0.000209s.
 
 COMPUTING HASH...
-COMPUTING TIME: 1.47692s.
+COMPUTING TIME: 1.47234s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
-The 0-th R*-Tree has been built. Elapsed time: 0.874s
-The 1-th R*-Tree has been built. Elapsed time: 0.850s
-The 2-th R*-Tree has been built. Elapsed time: 0.859s
+The 0-th R*-Tree has been built. Elapsed time: 0.867s
+The 1-th R*-Tree has been built. Elapsed time: 0.857s
+The 2-th R*-Tree has been built. Elapsed time: 0.870s
 The 3-th R*-Tree has been built. Elapsed time: 0.870s
-The 4-th R*-Tree has been built. Elapsed time: 0.887s
-BUILDING TIME: 4.33972s.
+The 4-th R*-Tree has been built. Elapsed time: 0.877s
+BUILDING TIME: 4.34085s.
 
 
 RUNNING QUERY ...
@@ -666,7 +686,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    40.8877ms.
+AVG QUERY TIME:    36.3384ms.
+
+TOTAL QUERY TIME:    7267.68ms.
 
 AVG RECALL:        0.0885
 AVG MAP:        0.0492493
@@ -699,7 +721,7 @@ size of base=  8
 
 size of query=  8
 
-LOADING TIME: 0.983335s.
+LOADING TIME: 0.983786s.
 
 LOADING BENMARK...
 LOADING TIME: 2.2e-05s.
@@ -708,19 +730,19 @@ LOADING TIME: 2.2e-05s.
 START HASHING...
 
 SETTING HASH PARAMETER...
-SETTING TIME: 0.003025s.
+SETTING TIME: 0.002994s.
 
 COMPUTING HASH...
-COMPUTING TIME: 3.03753s.
+COMPUTING TIME: 3.01623s.
 
 BUILDING INDEX...
 THERE ARE 5 14-D HASH TABLES.
-The 0-th R*-Tree has been built. Elapsed time: 0.050s
-The 1-th R*-Tree has been built. Elapsed time: 0.042s
+The 0-th R*-Tree has been built. Elapsed time: 0.042s
+The 1-th R*-Tree has been built. Elapsed time: 0.053s
 The 2-th R*-Tree has been built. Elapsed time: 0.042s
 The 3-th R*-Tree has been built. Elapsed time: 0.042s
 The 4-th R*-Tree has been built. Elapsed time: 0.042s
-BUILDING TIME: 0.217962s.
+BUILDING TIME: 0.220734s.
 
 
 RUNNING QUERY ...
@@ -728,7 +750,9 @@ RUNNING QUERY ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-AVG QUERY TIME:    24.9638ms.
+AVG QUERY TIME:    25.1459ms.
+
+TOTAL QUERY TIME:    5029.18ms.
 
 AVG RECALL:        0.962
 AVG MAP:        0.940681
