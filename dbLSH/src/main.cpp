@@ -224,7 +224,7 @@ void expe_k(float c, Hash& myslsh, Preprocess& prep, float beta, std::string& da
 		time_t now = std::time(0);
 		time_t zero_point = 1635153971;//Let me set the time at 2021.10.25. 17:27 as the zero point
 		float date = ((float)(now - zero_point)) / 86400;
-		std::ofstream os(data_fold + "ANN/DB-LSH_result.csv", std::ios_base::app);
+		// std::ofstream os(data_fold + "ANN/DB-LSH_result.csv", std::ios_base::app);
 		// os.seekp(0, std::ios_base::end); // move to the end of file
 		// int tmp = (int)os.tellp();
 		// if (tmp == 0) {
