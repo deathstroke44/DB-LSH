@@ -91,12 +91,12 @@ int main(int argc, char const* argv[])
 	//std::cout << "R_min=    " << R_min << std::endl << std::endl;
 
 	#if defined(unix) || defined(__unix__)
-		std::string data_fold = "./../dataset/", index_fold = "";
+		std::string data_fold = "/data/kabir/similarity-search/dataset/", index_fold = "";
 	#else
 		std::string data_fold = "E:/Dataset_for_c/", index_fold = "";
 	#endif
 
-	Preprocess prep(data_fold + datasetName + ".data", data_fold + "ANN/" + datasetName + ".bench");
+	Preprocess prep(data_fold + datasetName + "/base.fvecs", data_fold + "ANN/" + datasetName + ".bench");
 
 	showMemoryInfo();
 
