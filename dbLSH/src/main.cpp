@@ -96,7 +96,7 @@ int main(int argc, char const* argv[])
 		std::string data_fold = "E:/Dataset_for_c/", index_fold = "";
 	#endif
 
-	Preprocess prep(data_fold + datasetName + "/base.fvecs", data_fold + "ANN/" + datasetName + ".bench");
+	Preprocess prep(data_fold + datasetName + "/base.bin", data_fold + "ANN/" + datasetName + ".bench");
 
 	showMemoryInfo();
 
