@@ -10,6 +10,7 @@
 #include <sstream>
 #include <numeric>
 #include<algorithm>
+using namespace std; 
 
 #define E 2.718281746
 #define PI 3.1415926
@@ -49,8 +50,44 @@ Preprocess::Preprocess(const std::string& path, const std::string& ben_file_, fl
 	}
 }
 
+vector<vector<float>> readFVecsFromExternal(string filepath, int maxRow=-1) {
+  FILE *infile = fopen(filepath.c_str(), "rb");
+  vector<vector<float>> data= {};
+  if (infile == NULL) {
+    std::cout << "File not found" << std::endl;
+    return data;
+  }
+  
+  int rowCt = 0;
+  int dimen;
+  while (true) {
+    if (fread(&dimen, sizeof(int), 1, infile) == 0) {
+      break;
+    }
+    std::vector<float> v(dimen);
+    if(fread(v.data(), sizeof(float), dimen, infile) == 0) {
+      std::cout << "Error when reading" << std::endl;
+    };
+    
+	data.push_back(v);
+
+    rowCt++;
+    
+    if (maxRow != -1 && rowCt >= maxRow) {
+      break;
+    }
+  }
+  // std::cout<<"Row count test: "<<rowCt<<std::endl;
+
+  if (fclose(infile)) {
+    std::cout << "Could not close data file" << std::endl;
+  }
+  return data;
+}
+
 void Preprocess::load_data(const std::string& path)
 {
+	vector<vector<float>> base = readFVecsFromExternal(path+"base.fvecs");
 	std::string file = path;
 	std::ifstream in(file.c_str(), std::ios::binary);
 	while (!in) {
@@ -58,18 +95,17 @@ void Preprocess::load_data(const std::string& path)
 		exit(0);
 	}
 
-	unsigned int header[3] = {};
-	assert(sizeof header == 3 * 4);
-	in.read((char*)header, sizeof(header));
-	assert(header[0] == sizeof(float));
-	data.N = header[1];
-	data.dim = header[2];
+	
+	data.N = base.size();
+	data.dim = base[0].size();
 
 	data.val = new float* [data.N];
 	for (int i = 0; i < data.N; ++i) {
 		data.val[i] = new float[data.dim];
 		//in.seekg(sizeof(float), std::ios::cur);
-		in.read((char*)data.val[i], sizeof(float) * header[2]);
+		for (int d=0; d<data.dim; d++) {
+			data.val[i][d]=base[i][d];
+		}
 	}
 
 	int MaxQueryNum = min(200, (int)data.N - 1);
