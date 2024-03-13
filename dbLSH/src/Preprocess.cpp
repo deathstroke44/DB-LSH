@@ -17,8 +17,9 @@ using namespace std;
 
 #define min(a,b)            (((a) < (b)) ? (a) : (b))
 
-Preprocess::Preprocess(const std::string& path, const std::string& ben_file_)
+Preprocess::Preprocess(const std::string& path, const std::string& ben_file_, int _k)
 {
+	k=_k;
 	lsh::timer timer;
 	std::cout << "LOADING DATA..." << std::endl;
 	timer.restart();
@@ -32,7 +33,7 @@ Preprocess::Preprocess(const std::string& path, const std::string& ben_file_)
 	}
 }
 
-Preprocess::Preprocess(const std::string& path, const std::string& ben_file_, float beta_)
+Preprocess::Preprocess(const std::string& path, const std::string& ben_file_, float beta_, int _k)
 {
 
 	hasT = true;
@@ -240,7 +241,7 @@ bool comp(const Tuple& a, const Tuple& b)
 void Preprocess::ben_make()
 {
 	int MaxQueryNum = data.numQuery;
-	benchmark.N = MaxQueryNum, benchmark.num = 100;
+	benchmark.N = MaxQueryNum, benchmark.num = k;
 	benchmark.indice = new int* [benchmark.N];
 	benchmark.dist = new float* [benchmark.N];
 	for (unsigned j = 0; j < benchmark.N; j++) {

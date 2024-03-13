@@ -96,7 +96,7 @@ int main(int argc, char const* argv[])
 		std::string data_fold = "E:/Dataset_for_c/", index_fold = "";
 	#endif
 
-	Preprocess prep(data_fold + datasetName + "/", data_fold + "ANN/" + datasetName + ".bench");
+	Preprocess prep(data_fold + datasetName + "/", data_fold + "ANN/" + datasetName + ".bench", k);
 
 	showMemoryInfo();
 
@@ -142,6 +142,7 @@ void lshknn(float c, int k, Hash& myslsh, Preprocess& prep, float beta, std::str
 	showMemoryInfo();
 
 	float mean_time = (float)perform.time_total / perform.num;
+	std::cout << "k=                 " << k << std::endl << std::endl;
 	std::cout << "AVG QUERY TIME:    " << mean_time * 1000 << "ms." << std::endl << std::endl;
 	std::cout << "TOTAL QUERY TIME:    " << perform.time_total * 1000 << "ms." << std::endl << std::endl;
 	//std::cout << "SORT TIME:         " << ((float)perform.time_sift) / (perform.num) << std::endl;

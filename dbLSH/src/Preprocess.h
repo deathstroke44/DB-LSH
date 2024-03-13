@@ -17,10 +17,11 @@ public:
 	std::string ben_file;
 	bool hasT = false;
 	float beta = 0.1f;
+	int k=20;
 	
 public:
-	Preprocess(const std::string& path, const std::string& ben_file_);
-	Preprocess(const std::string& path, const std::string& ben_file_, float beta_);
+	Preprocess(const std::string& path, const std::string& ben_file_, int _k);
+	Preprocess(const std::string& path, const std::string& ben_file_, float beta_, int _k);
 	void load_data(const std::string& path);
 	void ben_make();
 	void ben_save();
