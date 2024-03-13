@@ -98,6 +98,7 @@ public:
 	unsigned res_num = 0;
 	//
 	float ratio = 0;
+	float MAP =0;
 public:
 	Performance() {}
 	//ccccc
