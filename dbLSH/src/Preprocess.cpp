@@ -113,7 +113,7 @@ void Preprocess::load_data(const std::string& path)
 		data.val[i] = new float[data.dim];
 		//in.seekg(sizeof(float), std::ios::cur);
 		for (int d=0; d<data.dim; d++) {
-			data.val[i][d]=base[i][d];
+			data.val[i][d]=base[i-query.size()][d];
 		}
 	}
 
