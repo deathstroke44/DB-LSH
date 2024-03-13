@@ -1,7 +1,7 @@
 k=20
 
 cd ../build/
-declare -a arr=("glove", "audio", "cifar", "deep", "enron")
+declare -a arr=("glove" "audio" "cifar" "deep" "enron")
 
 for datasetName in "${arr[@]}"
 do
