@@ -51,7 +51,7 @@ Preprocess::Preprocess(const std::string& path, const std::string& ben_file_, fl
 
 void Preprocess::load_data(const std::string& path)
 {
-	std::string file = path + "_new";
+	std::string file = path;
 	std::ifstream in(file.c_str(), std::ios::binary);
 	while (!in) {
 		printf("Fail to find data file!\n");
@@ -272,7 +272,7 @@ void Preprocess::ben_create()
 	std::ifstream in(ben_file.c_str(), std::ios::binary);
 	in.read((char*)&a_test, sizeof(unsigned));
 	in.close();
-	if (a_test > 0 && a_test < data.N)//ÅĞ¶ÏÊÇ·ñÄÜ¸ÄĞ´a_test
+	if (a_test > 0 && a_test < data.N)//ï¿½Ğ¶ï¿½ï¿½Ç·ï¿½ï¿½Ü¸ï¿½Ğ´a_test
 	{
 		std::cout << "LOADING BENMARK..." << std::endl;
 		timer.restart();
