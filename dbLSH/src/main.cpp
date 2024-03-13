@@ -129,7 +129,7 @@ int main(int argc, char const* argv[])
 void lshknn(float c, int k, Hash& myslsh, Preprocess& prep, float beta, std::string& datasetName, std::string& data_fold) {
 	lsh::timer timer;
 	std::cout << std::endl << "RUNNING QUERY ..." << std::endl;
-	int Qnum = 100;
+	int Qnum = prep.data.numQuery;
 	lsh::progress_display pd(Qnum);
 	Performance perform;
 	for (unsigned j = 0; j < Qnum; j++)

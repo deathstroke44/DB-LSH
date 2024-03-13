@@ -88,6 +88,7 @@ vector<vector<float>> readFVecsFromExternal(string filepath, int maxRow=-1) {
 void Preprocess::load_data(const std::string& path)
 {
 	vector<vector<float>> base = readFVecsFromExternal(path+"base.fvecs");
+	vector<vector<float>> query = readFVecsFromExternal(path+"query.fvecs");
 	std::string file = path;
 	std::ifstream in(file.c_str(), std::ios::binary);
 	while (!in) {
@@ -96,11 +97,19 @@ void Preprocess::load_data(const std::string& path)
 	}
 
 	
-	data.N = base.size();
+	data.N = base.size()+query.size();
+	data.numQuery=query.size();
 	data.dim = base[0].size();
 
 	data.val = new float* [data.N];
-	for (int i = 0; i < data.N; ++i) {
+	for (int i = 0; i < query.size(); ++i) {
+		data.val[i] = new float[data.dim];
+		//in.seekg(sizeof(float), std::ios::cur);
+		for (int d=0; d<data.dim; d++) {
+			data.val[i][d]=query[i][d];
+		}
+	}
+	for (int i =  query.size(); i < data.N; ++i) {
 		data.val[i] = new float[data.dim];
 		//in.seekg(sizeof(float), std::ios::cur);
 		for (int d=0; d<data.dim; d++) {
@@ -108,7 +117,7 @@ void Preprocess::load_data(const std::string& path)
 		}
 	}
 
-	int MaxQueryNum = min(200, (int)data.N - 1);
+	int MaxQueryNum = min(data.numQuery, (int)data.N - 1);
 	data.query = data.val;
 	data.val = &(data.query[MaxQueryNum]);
 	data.N -= MaxQueryNum;
@@ -230,7 +239,7 @@ bool comp(const Tuple& a, const Tuple& b)
 
 void Preprocess::ben_make()
 {
-	int MaxQueryNum = min(200, (int)data.N - 201);
+	int MaxQueryNum = data.numQuery;
 	benchmark.N = MaxQueryNum, benchmark.num = 100;
 	benchmark.indice = new int* [benchmark.N];
 	benchmark.dist = new float* [benchmark.N];
@@ -333,7 +342,7 @@ void Preprocess::ben_create()
 
 Preprocess::~Preprocess()
 {
-	int MaxQueryNum = min(200, (int)data.N - 201);
+	int MaxQueryNum = data.numQuery;
 
 	clear_2d_array(data.query, data.N + MaxQueryNum);
 	//clear_2d_array(Dists, MaxQueryNum);
