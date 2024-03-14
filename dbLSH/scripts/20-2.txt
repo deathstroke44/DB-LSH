@@ -1,0 +1,4585 @@
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 7.64952s.
+
+MAKING BENMARK...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+MAKING TIME: 54.4783s.
+
+SAVING BENMARK...
+SAVING TIME: 0.000213s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000103s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.97708s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.669s
+The 1-th R*-Tree has been built. Elapsed time: 1.719s
+The 2-th R*-Tree has been built. Elapsed time: 1.718s
+The 3-th R*-Tree has been built. Elapsed time: 1.731s
+The 4-th R*-Tree has been built. Elapsed time: 1.705s
+BUILDING TIME: 8.54148s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    68.7228ms.
+
+TOTAL QUERY TIME:    13744.6ms.
+
+AVG RECALL:        0.06925
+AVG MAP:        0.0230726
+AVG RATIO:         1.26362
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.90656s.
+
+LOADING BENMARK...
+LOADING TIME: 2.5e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000106s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.1565s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 2.992s
+The 1-th R*-Tree has been built. Elapsed time: 2.149s
+The 2-th R*-Tree has been built. Elapsed time: 2.050s
+The 3-th R*-Tree has been built. Elapsed time: 1.841s
+The 4-th R*-Tree has been built. Elapsed time: 1.863s
+BUILDING TIME: 10.8955s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    71.4096ms.
+
+TOTAL QUERY TIME:    14281.9ms.
+
+AVG RECALL:        0.069
+AVG MAP:        0.0230726
+AVG RATIO:         1.26444
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.25
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.36108s.
+
+LOADING BENMARK...
+LOADING TIME: 2.5e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000107s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.27487s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.827s
+The 1-th R*-Tree has been built. Elapsed time: 1.746s
+The 2-th R*-Tree has been built. Elapsed time: 1.768s
+The 3-th R*-Tree has been built. Elapsed time: 1.731s
+The 4-th R*-Tree has been built. Elapsed time: 1.708s
+BUILDING TIME: 8.77932s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    70.8817ms.
+
+TOTAL QUERY TIME:    14176.3ms.
+
+AVG RECALL:        0.08975
+AVG MAP:        0.0381067
+AVG RATIO:         1.25037
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.38302s.
+
+LOADING BENMARK...
+LOADING TIME: 2.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00019s.
+
+COMPUTING HASH...
+COMPUTING TIME: 4.44352s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.903s
+The 1-th R*-Tree has been built. Elapsed time: 1.745s
+The 2-th R*-Tree has been built. Elapsed time: 1.804s
+The 3-th R*-Tree has been built. Elapsed time: 1.740s
+The 4-th R*-Tree has been built. Elapsed time: 1.734s
+The 5-th R*-Tree has been built. Elapsed time: 1.686s
+The 6-th R*-Tree has been built. Elapsed time: 1.766s
+The 7-th R*-Tree has been built. Elapsed time: 1.689s
+The 8-th R*-Tree has been built. Elapsed time: 1.702s
+The 9-th R*-Tree has been built. Elapsed time: 1.705s
+BUILDING TIME: 17.4752s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    70.4939ms.
+
+TOTAL QUERY TIME:    14098.8ms.
+
+AVG RECALL:        0.06925
+AVG MAP:        0.0230726
+AVG RATIO:         1.26362
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.34735s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000269s.
+
+COMPUTING HASH...
+COMPUTING TIME: 6.53894s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.855s
+The 1-th R*-Tree has been built. Elapsed time: 1.827s
+The 2-th R*-Tree has been built. Elapsed time: 1.833s
+The 3-th R*-Tree has been built. Elapsed time: 1.828s
+The 4-th R*-Tree has been built. Elapsed time: 1.801s
+The 5-th R*-Tree has been built. Elapsed time: 1.752s
+The 6-th R*-Tree has been built. Elapsed time: 1.712s
+The 7-th R*-Tree has been built. Elapsed time: 1.704s
+The 8-th R*-Tree has been built. Elapsed time: 1.705s
+The 9-th R*-Tree has been built. Elapsed time: 1.699s
+The 10-th R*-Tree has been built. Elapsed time: 1.684s
+The 11-th R*-Tree has been built. Elapsed time: 1.706s
+The 12-th R*-Tree has been built. Elapsed time: 1.686s
+The 13-th R*-Tree has been built. Elapsed time: 1.707s
+The 14-th R*-Tree has been built. Elapsed time: 1.693s
+BUILDING TIME: 26.1905s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    69.963ms.
+
+TOTAL QUERY TIME:    13992.6ms.
+
+AVG RECALL:        0.06925
+AVG MAP:        0.0230726
+AVG RATIO:         1.26362
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.43547s.
+
+LOADING BENMARK...
+LOADING TIME: 2.9e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000138s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.80464s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 2.143s
+The 1-th R*-Tree has been built. Elapsed time: 1.994s
+The 2-th R*-Tree has been built. Elapsed time: 1.982s
+The 3-th R*-Tree has been built. Elapsed time: 1.960s
+The 4-th R*-Tree has been built. Elapsed time: 1.959s
+BUILDING TIME: 10.038s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    91.7282ms.
+
+TOTAL QUERY TIME:    18345.6ms.
+
+AVG RECALL:        0.12125
+AVG MAP:        0.0807141
+AVG RATIO:         1.20027
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.53704s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000132s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.94719s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 3.034s
+The 1-th R*-Tree has been built. Elapsed time: 2.986s
+The 2-th R*-Tree has been built. Elapsed time: 2.974s
+The 3-th R*-Tree has been built. Elapsed time: 3.172s
+The 4-th R*-Tree has been built. Elapsed time: 2.876s
+BUILDING TIME: 15.0424s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    84.8904ms.
+
+TOTAL QUERY TIME:    16978.1ms.
+
+AVG RECALL:        0.07425
+AVG MAP:        0.0453561
+AVG RATIO:         1.31351
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.33842s.
+
+LOADING BENMARK...
+LOADING TIME: 2.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000102s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.22152s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 2.090s
+The 1-th R*-Tree has been built. Elapsed time: 2.082s
+The 2-th R*-Tree has been built. Elapsed time: 2.089s
+The 3-th R*-Tree has been built. Elapsed time: 1.949s
+The 4-th R*-Tree has been built. Elapsed time: 1.946s
+BUILDING TIME: 10.156s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    84.7022ms.
+
+TOTAL QUERY TIME:    16940.4ms.
+
+AVG RECALL:        0.069
+AVG MAP:        0.0230726
+AVG RATIO:         1.26445
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.30315s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000103s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.22521s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.884s
+The 1-th R*-Tree has been built. Elapsed time: 1.875s
+The 2-th R*-Tree has been built. Elapsed time: 1.821s
+The 3-th R*-Tree has been built. Elapsed time: 1.812s
+The 4-th R*-Tree has been built. Elapsed time: 1.988s
+BUILDING TIME: 9.38044s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    90.7957ms.
+
+TOTAL QUERY TIME:    18159.1ms.
+
+AVG RECALL:        0.069
+AVG MAP:        0.0230726
+AVG RATIO:         1.26445
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.25
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.38727s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000105s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.51443s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 2.380s
+The 1-th R*-Tree has been built. Elapsed time: 2.155s
+The 2-th R*-Tree has been built. Elapsed time: 2.058s
+The 3-th R*-Tree has been built. Elapsed time: 2.052s
+The 4-th R*-Tree has been built. Elapsed time: 2.047s
+BUILDING TIME: 10.6918s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    94.2365ms.
+
+TOTAL QUERY TIME:    18847.3ms.
+
+AVG RECALL:        0.069
+AVG MAP:        0.0230726
+AVG RATIO:         1.26445
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.29625s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000101s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.48841s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 2.278s
+The 1-th R*-Tree has been built. Elapsed time: 2.032s
+The 2-th R*-Tree has been built. Elapsed time: 1.814s
+The 3-th R*-Tree has been built. Elapsed time: 1.785s
+The 4-th R*-Tree has been built. Elapsed time: 1.795s
+BUILDING TIME: 9.70482s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    71.2157ms.
+
+TOTAL QUERY TIME:    14243.1ms.
+
+AVG RECALL:        0.069
+AVG MAP:        0.0230726
+AVG RATIO:         1.26445
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.35337s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000107s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.66941s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 2.009s
+The 1-th R*-Tree has been built. Elapsed time: 1.997s
+The 2-th R*-Tree has been built. Elapsed time: 2.018s
+The 3-th R*-Tree has been built. Elapsed time: 1.986s
+The 4-th R*-Tree has been built. Elapsed time: 2.010s
+BUILDING TIME: 10.0203s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    103.577ms.
+
+TOTAL QUERY TIME:    20715.4ms.
+
+AVG RECALL:        0.069
+AVG MAP:        0.0230726
+AVG RATIO:         1.26445
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.36789s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000191s.
+
+COMPUTING HASH...
+COMPUTING TIME: 5.64732s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 2.071s
+The 1-th R*-Tree has been built. Elapsed time: 1.978s
+The 2-th R*-Tree has been built. Elapsed time: 2.043s
+The 3-th R*-Tree has been built. Elapsed time: 2.016s
+The 4-th R*-Tree has been built. Elapsed time: 2.013s
+The 5-th R*-Tree has been built. Elapsed time: 1.998s
+The 6-th R*-Tree has been built. Elapsed time: 2.069s
+The 7-th R*-Tree has been built. Elapsed time: 2.024s
+The 8-th R*-Tree has been built. Elapsed time: 1.975s
+The 9-th R*-Tree has been built. Elapsed time: 1.790s
+BUILDING TIME: 19.976s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    87.4251ms.
+
+TOTAL QUERY TIME:    17485ms.
+
+AVG RECALL:        0.069
+AVG MAP:        0.0230726
+AVG RATIO:         1.26445
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.38701s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000271s.
+
+COMPUTING HASH...
+COMPUTING TIME: 7.78341s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 2.007s
+The 1-th R*-Tree has been built. Elapsed time: 2.477s
+The 2-th R*-Tree has been built. Elapsed time: 1.949s
+The 3-th R*-Tree has been built. Elapsed time: 1.777s
+The 4-th R*-Tree has been built. Elapsed time: 1.894s
+The 5-th R*-Tree has been built. Elapsed time: 1.838s
+The 6-th R*-Tree has been built. Elapsed time: 1.815s
+The 7-th R*-Tree has been built. Elapsed time: 2.322s
+The 8-th R*-Tree has been built. Elapsed time: 1.942s
+The 9-th R*-Tree has been built. Elapsed time: 1.909s
+The 10-th R*-Tree has been built. Elapsed time: 2.016s
+The 11-th R*-Tree has been built. Elapsed time: 2.169s
+The 12-th R*-Tree has been built. Elapsed time: 1.805s
+The 13-th R*-Tree has been built. Elapsed time: 1.834s
+The 14-th R*-Tree has been built. Elapsed time: 1.790s
+BUILDING TIME: 29.544s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    74.7206ms.
+
+TOTAL QUERY TIME:    14944.1ms.
+
+AVG RECALL:        0.069
+AVG MAP:        0.0230726
+AVG RATIO:         1.26445
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.29483s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000125s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.70409s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 2.246s
+The 1-th R*-Tree has been built. Elapsed time: 2.119s
+The 2-th R*-Tree has been built. Elapsed time: 1.905s
+The 3-th R*-Tree has been built. Elapsed time: 1.872s
+The 4-th R*-Tree has been built. Elapsed time: 1.843s
+BUILDING TIME: 9.98569s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    76.9258ms.
+
+TOTAL QUERY TIME:    15385.2ms.
+
+AVG RECALL:        0.12075
+AVG MAP:        0.080555
+AVG RATIO:         1.20117
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for imageNet ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/imageNet/
+N=    2340373
+dim=  150
+
+LOADING TIME: 1.38331s.
+
+LOADING BENMARK...
+LOADING TIME: 2.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000144s.
+
+COMPUTING HASH...
+COMPUTING TIME: 3.05863s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 2.887s
+The 1-th R*-Tree has been built. Elapsed time: 3.242s
+The 2-th R*-Tree has been built. Elapsed time: 2.718s
+The 3-th R*-Tree has been built. Elapsed time: 2.623s
+The 4-th R*-Tree has been built. Elapsed time: 2.680s
+BUILDING TIME: 14.15s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    74.4947ms.
+
+TOTAL QUERY TIME:    14898.9ms.
+
+AVG RECALL:        0.073
+AVG MAP:        0.0441681
+AVG RATIO:         1.31524
+AVG COST:          0.100008
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.92838s.
+
+MAKING BENMARK...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+MAKING TIME: 33.2728s.
+
+SAVING BENMARK...
+SAVING TIME: 0.000215s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000247s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.14482s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.923s
+The 1-th R*-Tree has been built. Elapsed time: 0.870s
+The 2-th R*-Tree has been built. Elapsed time: 0.891s
+The 3-th R*-Tree has been built. Elapsed time: 0.873s
+The 4-th R*-Tree has been built. Elapsed time: 0.871s
+BUILDING TIME: 4.42905s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    84.0741ms.
+
+TOTAL QUERY TIME:    16814.8ms.
+
+AVG RECALL:        0.98275
+AVG MAP:        0.973426
+AVG RATIO:         1.00052
+AVG COST:          0.10002
+AVG ROUNDS:        8.81
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.37796s.
+
+LOADING BENMARK...
+LOADING TIME: 2.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000245s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.96085s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.877s
+The 1-th R*-Tree has been built. Elapsed time: 0.954s
+The 2-th R*-Tree has been built. Elapsed time: 0.892s
+The 3-th R*-Tree has been built. Elapsed time: 0.892s
+The 4-th R*-Tree has been built. Elapsed time: 0.880s
+BUILDING TIME: 4.49601s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    76.222ms.
+
+TOTAL QUERY TIME:    15244.4ms.
+
+AVG RECALL:        0.9685
+AVG MAP:        0.953268
+AVG RATIO:         1.00098
+AVG COST:          0.10002
+AVG ROUNDS:        6.17
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.25
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.70866s.
+
+LOADING BENMARK...
+LOADING TIME: 2.4e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00025s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.05422s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.828s
+The 1-th R*-Tree has been built. Elapsed time: 0.881s
+The 2-th R*-Tree has been built. Elapsed time: 0.833s
+The 3-th R*-Tree has been built. Elapsed time: 0.929s
+The 4-th R*-Tree has been built. Elapsed time: 0.871s
+BUILDING TIME: 4.34162s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    110.646ms.
+
+TOTAL QUERY TIME:    22129.3ms.
+
+AVG RECALL:        0.98675
+AVG MAP:        0.980472
+AVG RATIO:         1.00036
+AVG COST:          0.10002
+AVG ROUNDS:        16.36
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.8792s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000472s.
+
+COMPUTING HASH...
+COMPUTING TIME: 4.31515s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.969s
+The 1-th R*-Tree has been built. Elapsed time: 0.924s
+The 2-th R*-Tree has been built. Elapsed time: 0.943s
+The 3-th R*-Tree has been built. Elapsed time: 0.932s
+The 4-th R*-Tree has been built. Elapsed time: 0.915s
+The 5-th R*-Tree has been built. Elapsed time: 0.936s
+The 6-th R*-Tree has been built. Elapsed time: 0.923s
+The 7-th R*-Tree has been built. Elapsed time: 0.891s
+The 8-th R*-Tree has been built. Elapsed time: 0.852s
+The 9-th R*-Tree has been built. Elapsed time: 0.864s
+BUILDING TIME: 9.15008s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    110.972ms.
+
+TOTAL QUERY TIME:    22194.5ms.
+
+AVG RECALL:        0.992
+AVG MAP:        0.988509
+AVG RATIO:         1.00017
+AVG COST:          0.10002
+AVG ROUNDS:        8.53
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.84683s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000705s.
+
+COMPUTING HASH...
+COMPUTING TIME: 6.21241s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.911s
+The 1-th R*-Tree has been built. Elapsed time: 0.877s
+The 2-th R*-Tree has been built. Elapsed time: 0.891s
+The 3-th R*-Tree has been built. Elapsed time: 0.893s
+The 4-th R*-Tree has been built. Elapsed time: 0.888s
+The 5-th R*-Tree has been built. Elapsed time: 0.905s
+The 6-th R*-Tree has been built. Elapsed time: 0.888s
+The 7-th R*-Tree has been built. Elapsed time: 0.889s
+The 8-th R*-Tree has been built. Elapsed time: 0.895s
+The 9-th R*-Tree has been built. Elapsed time: 0.883s
+The 10-th R*-Tree has been built. Elapsed time: 0.855s
+The 11-th R*-Tree has been built. Elapsed time: 0.869s
+The 12-th R*-Tree has been built. Elapsed time: 0.855s
+The 13-th R*-Tree has been built. Elapsed time: 0.843s
+The 14-th R*-Tree has been built. Elapsed time: 0.855s
+BUILDING TIME: 13.1972s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    134.385ms.
+
+TOTAL QUERY TIME:    26877ms.
+
+AVG RECALL:        0.9945
+AVG MAP:        0.991928
+AVG RATIO:         1.00011
+AVG COST:          0.10002
+AVG ROUNDS:        8.32
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.7856s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000294s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.58201s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.833s
+The 1-th R*-Tree has been built. Elapsed time: 0.836s
+The 2-th R*-Tree has been built. Elapsed time: 0.936s
+The 3-th R*-Tree has been built. Elapsed time: 0.927s
+The 4-th R*-Tree has been built. Elapsed time: 0.930s
+BUILDING TIME: 4.46218s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    106.837ms.
+
+TOTAL QUERY TIME:    21367.5ms.
+
+AVG RECALL:        0.9865
+AVG MAP:        0.977356
+AVG RATIO:         1.00042
+AVG COST:          0.10002
+AVG ROUNDS:        8.98
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.52399s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000354s.
+
+COMPUTING HASH...
+COMPUTING TIME: 3.06593s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.149s
+The 1-th R*-Tree has been built. Elapsed time: 1.052s
+The 2-th R*-Tree has been built. Elapsed time: 1.079s
+The 3-th R*-Tree has been built. Elapsed time: 1.159s
+The 4-th R*-Tree has been built. Elapsed time: 1.156s
+BUILDING TIME: 5.59431s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    111.747ms.
+
+TOTAL QUERY TIME:    22349.3ms.
+
+AVG RECALL:        0.989
+AVG MAP:        0.981978
+AVG RATIO:         1.00041
+AVG COST:          0.10002
+AVG ROUNDS:        9.14
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.42795s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00025s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.95929s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.842s
+The 1-th R*-Tree has been built. Elapsed time: 0.849s
+The 2-th R*-Tree has been built. Elapsed time: 0.864s
+The 3-th R*-Tree has been built. Elapsed time: 0.854s
+The 4-th R*-Tree has been built. Elapsed time: 0.852s
+BUILDING TIME: 4.26113s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    66.6032ms.
+
+TOTAL QUERY TIME:    13320.6ms.
+
+AVG RECALL:        0.98025
+AVG MAP:        0.967971
+AVG RATIO:         1.00061
+AVG COST:          0.10002
+AVG ROUNDS:        2.44
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.74692s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000248s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.13833s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.847s
+The 1-th R*-Tree has been built. Elapsed time: 0.830s
+The 2-th R*-Tree has been built. Elapsed time: 0.842s
+The 3-th R*-Tree has been built. Elapsed time: 0.826s
+The 4-th R*-Tree has been built. Elapsed time: 0.853s
+BUILDING TIME: 4.19846s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    62.8088ms.
+
+TOTAL QUERY TIME:    12561.8ms.
+
+AVG RECALL:        0.899
+AVG MAP:        0.842134
+AVG RATIO:         1.00432
+AVG COST:          0.10002
+AVG ROUNDS:        1.675
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.25
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.48757s.
+
+LOADING BENMARK...
+LOADING TIME: 2.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000289s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.96604s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.864s
+The 1-th R*-Tree has been built. Elapsed time: 0.844s
+The 2-th R*-Tree has been built. Elapsed time: 0.868s
+The 3-th R*-Tree has been built. Elapsed time: 0.854s
+The 4-th R*-Tree has been built. Elapsed time: 0.874s
+BUILDING TIME: 4.30472s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    94.605ms.
+
+TOTAL QUERY TIME:    18921ms.
+
+AVG RECALL:        0.98775
+AVG MAP:        0.981581
+AVG RATIO:         1.00029
+AVG COST:          0.10002
+AVG ROUNDS:        4.885
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.63228s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000246s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.9055s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.848s
+The 1-th R*-Tree has been built. Elapsed time: 0.835s
+The 2-th R*-Tree has been built. Elapsed time: 0.855s
+The 3-th R*-Tree has been built. Elapsed time: 0.837s
+The 4-th R*-Tree has been built. Elapsed time: 0.837s
+BUILDING TIME: 4.21183s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    44.4202ms.
+
+TOTAL QUERY TIME:    8884.05ms.
+
+AVG RECALL:        0.10025
+AVG MAP:        0.0734534
+AVG RATIO:         1.74872
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.64124s.
+
+LOADING BENMARK...
+LOADING TIME: 1.9e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00025s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.92213s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.835s
+The 1-th R*-Tree has been built. Elapsed time: 0.848s
+The 2-th R*-Tree has been built. Elapsed time: 0.844s
+The 3-th R*-Tree has been built. Elapsed time: 0.854s
+The 4-th R*-Tree has been built. Elapsed time: 0.832s
+BUILDING TIME: 4.21383s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    44.3837ms.
+
+TOTAL QUERY TIME:    8876.74ms.
+
+AVG RECALL:        0.10025
+AVG MAP:        0.0734534
+AVG RATIO:         1.74891
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.6785s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000473s.
+
+COMPUTING HASH...
+COMPUTING TIME: 3.84943s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.829s
+The 1-th R*-Tree has been built. Elapsed time: 0.849s
+The 2-th R*-Tree has been built. Elapsed time: 0.835s
+The 3-th R*-Tree has been built. Elapsed time: 0.848s
+The 4-th R*-Tree has been built. Elapsed time: 0.822s
+The 5-th R*-Tree has been built. Elapsed time: 0.835s
+The 6-th R*-Tree has been built. Elapsed time: 0.851s
+The 7-th R*-Tree has been built. Elapsed time: 0.825s
+The 8-th R*-Tree has been built. Elapsed time: 0.847s
+The 9-th R*-Tree has been built. Elapsed time: 0.850s
+BUILDING TIME: 8.39203s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    86.1956ms.
+
+TOTAL QUERY TIME:    17239.1ms.
+
+AVG RECALL:        0.9915
+AVG MAP:        0.987284
+AVG RATIO:         1.00019
+AVG COST:          0.10002
+AVG ROUNDS:        2.215
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.46646s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000705s.
+
+COMPUTING HASH...
+COMPUTING TIME: 5.78762s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.822s
+The 1-th R*-Tree has been built. Elapsed time: 0.842s
+The 2-th R*-Tree has been built. Elapsed time: 0.830s
+The 3-th R*-Tree has been built. Elapsed time: 0.860s
+The 4-th R*-Tree has been built. Elapsed time: 0.845s
+The 5-th R*-Tree has been built. Elapsed time: 0.867s
+The 6-th R*-Tree has been built. Elapsed time: 0.847s
+The 7-th R*-Tree has been built. Elapsed time: 0.860s
+The 8-th R*-Tree has been built. Elapsed time: 0.846s
+The 9-th R*-Tree has been built. Elapsed time: 0.872s
+The 10-th R*-Tree has been built. Elapsed time: 0.851s
+The 11-th R*-Tree has been built. Elapsed time: 0.907s
+The 12-th R*-Tree has been built. Elapsed time: 0.873s
+The 13-th R*-Tree has been built. Elapsed time: 0.869s
+The 14-th R*-Tree has been built. Elapsed time: 0.878s
+BUILDING TIME: 12.8702s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    104.245ms.
+
+TOTAL QUERY TIME:    20849.1ms.
+
+AVG RECALL:        0.994
+AVG MAP:        0.990889
+AVG RATIO:         1.00012
+AVG COST:          0.10002
+AVG ROUNDS:        2.07
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.60561s.
+
+LOADING BENMARK...
+LOADING TIME: 1.9e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000292s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.26907s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.855s
+The 1-th R*-Tree has been built. Elapsed time: 0.839s
+The 2-th R*-Tree has been built. Elapsed time: 0.856s
+The 3-th R*-Tree has been built. Elapsed time: 0.847s
+The 4-th R*-Tree has been built. Elapsed time: 0.842s
+BUILDING TIME: 4.23903s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    87.1128ms.
+
+TOTAL QUERY TIME:    17422.6ms.
+
+AVG RECALL:        0.9835
+AVG MAP:        0.972938
+AVG RATIO:         1.00055
+AVG COST:          0.10002
+AVG ROUNDS:        2.675
+
+QUERY FINISH... 
+
+
+Using DB-LSH for millionSong ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/millionSong/
+N=    992272
+dim=  420
+
+LOADING TIME: 1.46402s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00034s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.60205s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.844s
+The 1-th R*-Tree has been built. Elapsed time: 0.849s
+The 2-th R*-Tree has been built. Elapsed time: 0.854s
+The 3-th R*-Tree has been built. Elapsed time: 0.838s
+The 4-th R*-Tree has been built. Elapsed time: 0.848s
+BUILDING TIME: 4.23299s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    82.695ms.
+
+TOTAL QUERY TIME:    16539ms.
+
+AVG RECALL:        0.993
+AVG MAP:        0.987871
+AVG RATIO:         1.00024
+AVG COST:          0.10002
+AVG ROUNDS:        2.85
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.32844s.
+
+MAKING BENMARK...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+MAKING TIME: 2.71974s.
+
+SAVING BENMARK...
+SAVING TIME: 0.000164s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000435s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.250683s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.034s
+The 2-th R*-Tree has been built. Elapsed time: 0.033s
+The 3-th R*-Tree has been built. Elapsed time: 0.034s
+The 4-th R*-Tree has been built. Elapsed time: 0.034s
+BUILDING TIME: 0.168783s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    7.04129ms.
+
+TOTAL QUERY TIME:    1408.26ms.
+
+AVG RECALL:        0.90375
+AVG MAP:        0.858269
+AVG RATIO:         1.00514
+AVG COST:          0.10029
+AVG ROUNDS:        5.12
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.16208s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000433s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.250747s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.034s
+The 2-th R*-Tree has been built. Elapsed time: 0.034s
+The 3-th R*-Tree has been built. Elapsed time: 0.034s
+The 4-th R*-Tree has been built. Elapsed time: 0.034s
+BUILDING TIME: 0.168907s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    6.35231ms.
+
+TOTAL QUERY TIME:    1270.46ms.
+
+AVG RECALL:        0.902
+AVG MAP:        0.858971
+AVG RATIO:         1.00501
+AVG COST:          0.10029
+AVG ROUNDS:        3.63
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.25
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.162226s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000434s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.250609s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.034s
+The 2-th R*-Tree has been built. Elapsed time: 0.033s
+The 3-th R*-Tree has been built. Elapsed time: 0.034s
+The 4-th R*-Tree has been built. Elapsed time: 0.034s
+BUILDING TIME: 0.16828s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    9.40066ms.
+
+TOTAL QUERY TIME:    1880.13ms.
+
+AVG RECALL:        0.93175
+AVG MAP:        0.899217
+AVG RATIO:         1.00317
+AVG COST:          0.10029
+AVG ROUNDS:        9.74
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.162851s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000844s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.502355s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.034s
+The 2-th R*-Tree has been built. Elapsed time: 0.034s
+The 3-th R*-Tree has been built. Elapsed time: 0.034s
+The 4-th R*-Tree has been built. Elapsed time: 0.035s
+The 5-th R*-Tree has been built. Elapsed time: 0.034s
+The 6-th R*-Tree has been built. Elapsed time: 0.034s
+The 7-th R*-Tree has been built. Elapsed time: 0.034s
+The 8-th R*-Tree has been built. Elapsed time: 0.034s
+The 9-th R*-Tree has been built. Elapsed time: 0.034s
+BUILDING TIME: 0.337698s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    9.91197ms.
+
+TOTAL QUERY TIME:    1982.39ms.
+
+AVG RECALL:        0.924
+AVG MAP:        0.891017
+AVG RATIO:         1.0037
+AVG COST:          0.10029
+AVG ROUNDS:        4.88
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.16339s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.001253s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.75589s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.034s
+The 2-th R*-Tree has been built. Elapsed time: 0.034s
+The 3-th R*-Tree has been built. Elapsed time: 0.034s
+The 4-th R*-Tree has been built. Elapsed time: 0.034s
+The 5-th R*-Tree has been built. Elapsed time: 0.034s
+The 6-th R*-Tree has been built. Elapsed time: 0.034s
+The 7-th R*-Tree has been built. Elapsed time: 0.034s
+The 8-th R*-Tree has been built. Elapsed time: 0.034s
+The 9-th R*-Tree has been built. Elapsed time: 0.034s
+The 10-th R*-Tree has been built. Elapsed time: 0.034s
+The 11-th R*-Tree has been built. Elapsed time: 0.034s
+The 12-th R*-Tree has been built. Elapsed time: 0.034s
+The 13-th R*-Tree has been built. Elapsed time: 0.034s
+The 14-th R*-Tree has been built. Elapsed time: 0.034s
+BUILDING TIME: 0.506802s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    12.6546ms.
+
+TOTAL QUERY TIME:    2530.93ms.
+
+AVG RECALL:        0.94175
+AVG MAP:        0.916832
+AVG RATIO:         1.00243
+AVG COST:          0.10029
+AVG ROUNDS:        4.775
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.174736s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000518s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.298761s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.035s
+The 1-th R*-Tree has been built. Elapsed time: 0.034s
+The 2-th R*-Tree has been built. Elapsed time: 0.035s
+The 3-th R*-Tree has been built. Elapsed time: 0.035s
+The 4-th R*-Tree has been built. Elapsed time: 0.036s
+BUILDING TIME: 0.17518s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    7.93608ms.
+
+TOTAL QUERY TIME:    1587.22ms.
+
+AVG RECALL:        0.9375
+AVG MAP:        0.906758
+AVG RATIO:         1.00287
+AVG COST:          0.10029
+AVG ROUNDS:        5.285
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.172909s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000599s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.339788s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.036s
+The 1-th R*-Tree has been built. Elapsed time: 0.035s
+The 2-th R*-Tree has been built. Elapsed time: 0.035s
+The 3-th R*-Tree has been built. Elapsed time: 0.037s
+The 4-th R*-Tree has been built. Elapsed time: 0.035s
+BUILDING TIME: 0.177651s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    9.50129ms.
+
+TOTAL QUERY TIME:    1900.26ms.
+
+AVG RECALL:        0.94925
+AVG MAP:        0.926259
+AVG RATIO:         1.00202
+AVG COST:          0.10029
+AVG ROUNDS:        5.415
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.18825s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000437s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.260691s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.033s
+The 2-th R*-Tree has been built. Elapsed time: 0.033s
+The 3-th R*-Tree has been built. Elapsed time: 0.034s
+The 4-th R*-Tree has been built. Elapsed time: 0.034s
+BUILDING TIME: 0.167357s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    3.1008ms.
+
+TOTAL QUERY TIME:    620.159ms.
+
+AVG RECALL:        0.097
+AVG MAP:        0.0483083
+AVG RATIO:         1.39393
+AVG COST:          0.10029
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.17214s.
+
+LOADING BENMARK...
+LOADING TIME: 1.9e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000431s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.25977s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.034s
+The 2-th R*-Tree has been built. Elapsed time: 0.034s
+The 3-th R*-Tree has been built. Elapsed time: 0.033s
+The 4-th R*-Tree has been built. Elapsed time: 0.033s
+BUILDING TIME: 0.16787s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    2.8088ms.
+
+TOTAL QUERY TIME:    561.759ms.
+
+AVG RECALL:        0.08575
+AVG MAP:        0.0396513
+AVG RATIO:         1.42658
+AVG COST:          0.10029
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.25
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.169618s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000433s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.256226s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.034s
+The 2-th R*-Tree has been built. Elapsed time: 0.034s
+The 3-th R*-Tree has been built. Elapsed time: 0.034s
+The 4-th R*-Tree has been built. Elapsed time: 0.034s
+BUILDING TIME: 0.168623s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    3.50457ms.
+
+TOTAL QUERY TIME:    700.913ms.
+
+AVG RECALL:        0.197
+AVG MAP:        0.117779
+AVG RATIO:         1.2387
+AVG COST:          0.10029
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.1733s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000434s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.256962s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.034s
+The 2-th R*-Tree has been built. Elapsed time: 0.033s
+The 3-th R*-Tree has been built. Elapsed time: 0.034s
+The 4-th R*-Tree has been built. Elapsed time: 0.034s
+BUILDING TIME: 0.168487s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    2.7395ms.
+
+TOTAL QUERY TIME:    547.899ms.
+
+AVG RECALL:        0.08375
+AVG MAP:        0.0379886
+AVG RATIO:         1.42861
+AVG COST:          0.10029
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.169388s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000451s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.25631s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.034s
+The 2-th R*-Tree has been built. Elapsed time: 0.033s
+The 3-th R*-Tree has been built. Elapsed time: 0.033s
+The 4-th R*-Tree has been built. Elapsed time: 0.033s
+BUILDING TIME: 0.167748s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    2.71959ms.
+
+TOTAL QUERY TIME:    543.918ms.
+
+AVG RECALL:        0.08375
+AVG MAP:        0.0379886
+AVG RATIO:         1.42861
+AVG COST:          0.10029
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.168426s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000846s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.513986s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.034s
+The 2-th R*-Tree has been built. Elapsed time: 0.033s
+The 3-th R*-Tree has been built. Elapsed time: 0.035s
+The 4-th R*-Tree has been built. Elapsed time: 0.033s
+The 5-th R*-Tree has been built. Elapsed time: 0.034s
+The 6-th R*-Tree has been built. Elapsed time: 0.034s
+The 7-th R*-Tree has been built. Elapsed time: 0.034s
+The 8-th R*-Tree has been built. Elapsed time: 0.034s
+The 9-th R*-Tree has been built. Elapsed time: 0.034s
+BUILDING TIME: 0.337276s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    2.99833ms.
+
+TOTAL QUERY TIME:    599.666ms.
+
+AVG RECALL:        0.097
+AVG MAP:        0.0483083
+AVG RATIO:         1.39393
+AVG COST:          0.10029
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.167921s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.001254s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.77178s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.034s
+The 1-th R*-Tree has been built. Elapsed time: 0.033s
+The 2-th R*-Tree has been built. Elapsed time: 0.033s
+The 3-th R*-Tree has been built. Elapsed time: 0.034s
+The 4-th R*-Tree has been built. Elapsed time: 0.034s
+The 5-th R*-Tree has been built. Elapsed time: 0.034s
+The 6-th R*-Tree has been built. Elapsed time: 0.034s
+The 7-th R*-Tree has been built. Elapsed time: 0.033s
+The 8-th R*-Tree has been built. Elapsed time: 0.034s
+The 9-th R*-Tree has been built. Elapsed time: 0.034s
+The 10-th R*-Tree has been built. Elapsed time: 0.034s
+The 11-th R*-Tree has been built. Elapsed time: 0.034s
+The 12-th R*-Tree has been built. Elapsed time: 0.034s
+The 13-th R*-Tree has been built. Elapsed time: 0.034s
+The 14-th R*-Tree has been built. Elapsed time: 0.034s
+BUILDING TIME: 0.505459s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    3.02545ms.
+
+TOTAL QUERY TIME:    605.09ms.
+
+AVG RECALL:        0.097
+AVG MAP:        0.0483083
+AVG RATIO:         1.39393
+AVG COST:          0.10029
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.168516s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00052s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.299137s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.035s
+The 1-th R*-Tree has been built. Elapsed time: 0.035s
+The 2-th R*-Tree has been built. Elapsed time: 0.034s
+The 3-th R*-Tree has been built. Elapsed time: 0.035s
+The 4-th R*-Tree has been built. Elapsed time: 0.034s
+BUILDING TIME: 0.173154s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    3.03322ms.
+
+TOTAL QUERY TIME:    606.643ms.
+
+AVG RECALL:        0.12075
+AVG MAP:        0.0745205
+AVG RATIO:         1.3708
+AVG COST:          0.10029
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for MNIST ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/MNIST/
+N=    69000
+dim=  784
+
+LOADING TIME: 0.175069s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000601s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.338933s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.036s
+The 1-th R*-Tree has been built. Elapsed time: 0.035s
+The 2-th R*-Tree has been built. Elapsed time: 0.036s
+The 3-th R*-Tree has been built. Elapsed time: 0.035s
+The 4-th R*-Tree has been built. Elapsed time: 0.035s
+BUILDING TIME: 0.177219s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    2.92411ms.
+
+TOTAL QUERY TIME:    584.822ms.
+
+AVG RECALL:        0.09925
+AVG MAP:        0.0361339
+AVG RATIO:         1.27477
+AVG COST:          0.10029
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.360531s.
+
+MAKING BENMARK...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+MAKING TIME: 7.00269s.
+
+SAVING BENMARK...
+SAVING TIME: 0.000211s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 9.9e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.254471s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.165s
+The 1-th R*-Tree has been built. Elapsed time: 0.166s
+The 2-th R*-Tree has been built. Elapsed time: 0.161s
+The 3-th R*-Tree has been built. Elapsed time: 0.159s
+The 4-th R*-Tree has been built. Elapsed time: 0.161s
+BUILDING TIME: 0.81124s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    28.4234ms.
+
+TOTAL QUERY TIME:    5684.67ms.
+
+AVG RECALL:        0.93375
+AVG MAP:        0.905307
+AVG RATIO:         1.00285
+AVG COST:          0.100058
+AVG ROUNDS:        14.58
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.158546s.
+
+LOADING BENMARK...
+LOADING TIME: 2.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 9.4e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.230299s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.168s
+The 1-th R*-Tree has been built. Elapsed time: 0.162s
+The 2-th R*-Tree has been built. Elapsed time: 0.164s
+The 3-th R*-Tree has been built. Elapsed time: 0.169s
+The 4-th R*-Tree has been built. Elapsed time: 0.162s
+BUILDING TIME: 0.824317s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    27.3275ms.
+
+TOTAL QUERY TIME:    5465.5ms.
+
+AVG RECALL:        0.91525
+AVG MAP:        0.878144
+AVG RATIO:         1.004
+AVG COST:          0.100058
+AVG ROUNDS:        10.375
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.25
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.157273s.
+
+LOADING BENMARK...
+LOADING TIME: 2.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 9.6e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.229936s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.161s
+The 1-th R*-Tree has been built. Elapsed time: 0.173s
+The 2-th R*-Tree has been built. Elapsed time: 0.170s
+The 3-th R*-Tree has been built. Elapsed time: 0.167s
+The 4-th R*-Tree has been built. Elapsed time: 0.167s
+BUILDING TIME: 0.837319s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    43.1995ms.
+
+TOTAL QUERY TIME:    8639.91ms.
+
+AVG RECALL:        0.9445
+AVG MAP:        0.92056
+AVG RATIO:         1.00215
+AVG COST:          0.100058
+AVG ROUNDS:        26.885
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.168234s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000177s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.48088s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.175s
+The 1-th R*-Tree has been built. Elapsed time: 0.165s
+The 2-th R*-Tree has been built. Elapsed time: 0.161s
+The 3-th R*-Tree has been built. Elapsed time: 0.168s
+The 4-th R*-Tree has been built. Elapsed time: 0.168s
+The 5-th R*-Tree has been built. Elapsed time: 0.168s
+The 6-th R*-Tree has been built. Elapsed time: 0.165s
+The 7-th R*-Tree has been built. Elapsed time: 0.166s
+The 8-th R*-Tree has been built. Elapsed time: 0.166s
+The 9-th R*-Tree has been built. Elapsed time: 0.160s
+BUILDING TIME: 1.6599s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    39.9215ms.
+
+TOTAL QUERY TIME:    7984.3ms.
+
+AVG RECALL:        0.9435
+AVG MAP:        0.919835
+AVG RATIO:         1.00246
+AVG COST:          0.100058
+AVG ROUNDS:        14.24
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.162616s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000237s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.748487s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.174s
+The 1-th R*-Tree has been built. Elapsed time: 0.167s
+The 2-th R*-Tree has been built. Elapsed time: 0.166s
+The 3-th R*-Tree has been built. Elapsed time: 0.167s
+The 4-th R*-Tree has been built. Elapsed time: 0.167s
+The 5-th R*-Tree has been built. Elapsed time: 0.167s
+The 6-th R*-Tree has been built. Elapsed time: 0.167s
+The 7-th R*-Tree has been built. Elapsed time: 0.166s
+The 8-th R*-Tree has been built. Elapsed time: 0.164s
+The 9-th R*-Tree has been built. Elapsed time: 0.172s
+The 10-th R*-Tree has been built. Elapsed time: 0.166s
+The 11-th R*-Tree has been built. Elapsed time: 0.165s
+The 12-th R*-Tree has been built. Elapsed time: 0.174s
+The 13-th R*-Tree has been built. Elapsed time: 0.167s
+The 14-th R*-Tree has been built. Elapsed time: 0.173s
+BUILDING TIME: 2.52011s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    50.3265ms.
+
+TOTAL QUERY TIME:    10065.3ms.
+
+AVG RECALL:        0.954
+AVG MAP:        0.933697
+AVG RATIO:         1.00191
+AVG COST:          0.100058
+AVG ROUNDS:        14.14
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.161547s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000107s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.262772s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.246s
+The 1-th R*-Tree has been built. Elapsed time: 0.237s
+The 2-th R*-Tree has been built. Elapsed time: 0.238s
+The 3-th R*-Tree has been built. Elapsed time: 0.236s
+The 4-th R*-Tree has been built. Elapsed time: 0.231s
+BUILDING TIME: 1.18803s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    30.3734ms.
+
+TOTAL QUERY TIME:    6074.67ms.
+
+AVG RECALL:        0.93625
+AVG MAP:        0.908502
+AVG RATIO:         1.00277
+AVG COST:          0.100058
+AVG ROUNDS:        14.87
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.160024s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000121s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.294927s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.248s
+The 1-th R*-Tree has been built. Elapsed time: 0.238s
+The 2-th R*-Tree has been built. Elapsed time: 0.241s
+The 3-th R*-Tree has been built. Elapsed time: 0.240s
+The 4-th R*-Tree has been built. Elapsed time: 0.234s
+BUILDING TIME: 1.20029s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    33.1974ms.
+
+TOTAL QUERY TIME:    6639.49ms.
+
+AVG RECALL:        0.948
+AVG MAP:        0.92482
+AVG RATIO:         1.00222
+AVG COST:          0.100058
+AVG ROUNDS:        15.02
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.164773s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 9.2e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.228669s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.166s
+The 1-th R*-Tree has been built. Elapsed time: 0.168s
+The 2-th R*-Tree has been built. Elapsed time: 0.167s
+The 3-th R*-Tree has been built. Elapsed time: 0.166s
+The 4-th R*-Tree has been built. Elapsed time: 0.168s
+BUILDING TIME: 0.835103s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    27.1489ms.
+
+TOTAL QUERY TIME:    5429.79ms.
+
+AVG RECALL:        0.92525
+AVG MAP:        0.892755
+AVG RATIO:         1.00347
+AVG COST:          0.100058
+AVG ROUNDS:        8.195
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.161462s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 9.9e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.228888s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.166s
+The 1-th R*-Tree has been built. Elapsed time: 0.168s
+The 2-th R*-Tree has been built. Elapsed time: 0.165s
+The 3-th R*-Tree has been built. Elapsed time: 0.167s
+The 4-th R*-Tree has been built. Elapsed time: 0.167s
+BUILDING TIME: 0.834456s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    22.4533ms.
+
+TOTAL QUERY TIME:    4490.65ms.
+
+AVG RECALL:        0.8945
+AVG MAP:        0.850656
+AVG RATIO:         1.00571
+AVG COST:          0.100058
+AVG ROUNDS:        5.96
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.25
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.160989s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 9.2e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.227827s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.162s
+The 1-th R*-Tree has been built. Elapsed time: 0.161s
+The 2-th R*-Tree has been built. Elapsed time: 0.164s
+The 3-th R*-Tree has been built. Elapsed time: 0.166s
+The 4-th R*-Tree has been built. Elapsed time: 0.165s
+BUILDING TIME: 0.817267s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    40.3835ms.
+
+TOTAL QUERY TIME:    8076.71ms.
+
+AVG RECALL:        0.942
+AVG MAP:        0.918258
+AVG RATIO:         1.00228
+AVG COST:          0.100058
+AVG ROUNDS:        15.43
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.163289s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 9.2e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.229584s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.167s
+The 1-th R*-Tree has been built. Elapsed time: 0.168s
+The 2-th R*-Tree has been built. Elapsed time: 0.168s
+The 3-th R*-Tree has been built. Elapsed time: 0.168s
+The 4-th R*-Tree has been built. Elapsed time: 0.168s
+BUILDING TIME: 0.839167s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    6.69421ms.
+
+TOTAL QUERY TIME:    1338.84ms.
+
+AVG RECALL:        0.09775
+AVG MAP:        0.0552215
+AVG RATIO:         1.4944
+AVG COST:          0.100058
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.163162s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 9.6e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.228809s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.168s
+The 1-th R*-Tree has been built. Elapsed time: 0.170s
+The 2-th R*-Tree has been built. Elapsed time: 0.167s
+The 3-th R*-Tree has been built. Elapsed time: 0.166s
+The 4-th R*-Tree has been built. Elapsed time: 0.168s
+BUILDING TIME: 0.83876s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    6.4636ms.
+
+TOTAL QUERY TIME:    1292.72ms.
+
+AVG RECALL:        0.09325
+AVG MAP:        0.0522675
+AVG RATIO:         1.51156
+AVG COST:          0.100058
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.161442s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00016s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.483246s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.174s
+The 1-th R*-Tree has been built. Elapsed time: 0.165s
+The 2-th R*-Tree has been built. Elapsed time: 0.167s
+The 3-th R*-Tree has been built. Elapsed time: 0.162s
+The 4-th R*-Tree has been built. Elapsed time: 0.167s
+The 5-th R*-Tree has been built. Elapsed time: 0.167s
+The 6-th R*-Tree has been built. Elapsed time: 0.166s
+The 7-th R*-Tree has been built. Elapsed time: 0.168s
+The 8-th R*-Tree has been built. Elapsed time: 0.173s
+The 9-th R*-Tree has been built. Elapsed time: 0.164s
+BUILDING TIME: 1.6742s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    39.7969ms.
+
+TOTAL QUERY TIME:    7959.38ms.
+
+AVG RECALL:        0.95125
+AVG MAP:        0.930257
+AVG RATIO:         1.00199
+AVG COST:          0.100058
+AVG ROUNDS:        8.03
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.164097s.
+
+LOADING BENMARK...
+LOADING TIME: 2.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000236s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.748433s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.174s
+The 1-th R*-Tree has been built. Elapsed time: 0.160s
+The 2-th R*-Tree has been built. Elapsed time: 0.167s
+The 3-th R*-Tree has been built. Elapsed time: 0.167s
+The 4-th R*-Tree has been built. Elapsed time: 0.167s
+The 5-th R*-Tree has been built. Elapsed time: 0.166s
+The 6-th R*-Tree has been built. Elapsed time: 0.166s
+The 7-th R*-Tree has been built. Elapsed time: 0.160s
+The 8-th R*-Tree has been built. Elapsed time: 0.176s
+The 9-th R*-Tree has been built. Elapsed time: 0.165s
+The 10-th R*-Tree has been built. Elapsed time: 0.167s
+The 11-th R*-Tree has been built. Elapsed time: 0.166s
+The 12-th R*-Tree has been built. Elapsed time: 0.161s
+The 13-th R*-Tree has been built. Elapsed time: 0.166s
+The 14-th R*-Tree has been built. Elapsed time: 0.171s
+BUILDING TIME: 2.49831s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    51.2021ms.
+
+TOTAL QUERY TIME:    10240.4ms.
+
+AVG RECALL:        0.96525
+AVG MAP:        0.949947
+AVG RATIO:         1.00127
+AVG COST:          0.100058
+AVG ROUNDS:        7.98
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.163946s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000108s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.268181s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.246s
+The 1-th R*-Tree has been built. Elapsed time: 0.233s
+The 2-th R*-Tree has been built. Elapsed time: 0.236s
+The 3-th R*-Tree has been built. Elapsed time: 0.235s
+The 4-th R*-Tree has been built. Elapsed time: 0.237s
+BUILDING TIME: 1.18627s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    30.2326ms.
+
+TOTAL QUERY TIME:    6046.52ms.
+
+AVG RECALL:        0.9455
+AVG MAP:        0.918029
+AVG RATIO:         1.00243
+AVG COST:          0.100058
+AVG ROUNDS:        8.46
+
+QUERY FINISH... 
+
+
+Using DB-LSH for notre ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/notre/
+N=    332668
+dim=  128
+
+LOADING TIME: 0.164141s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000123s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.295471s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.247s
+The 1-th R*-Tree has been built. Elapsed time: 0.240s
+The 2-th R*-Tree has been built. Elapsed time: 0.241s
+The 3-th R*-Tree has been built. Elapsed time: 0.238s
+The 4-th R*-Tree has been built. Elapsed time: 0.238s
+BUILDING TIME: 1.20451s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    33.7249ms.
+
+TOTAL QUERY TIME:    6744.98ms.
+
+AVG RECALL:        0.959
+AVG MAP:        0.937554
+AVG RATIO:         1.00158
+AVG COST:          0.100058
+AVG ROUNDS:        8.68
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.760307s.
+
+MAKING BENMARK...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+MAKING TIME: 7.43503s.
+
+SAVING BENMARK...
+SAVING TIME: 0.00017s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000287s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.611344s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.122s
+The 1-th R*-Tree has been built. Elapsed time: 0.128s
+The 2-th R*-Tree has been built. Elapsed time: 0.121s
+The 3-th R*-Tree has been built. Elapsed time: 0.128s
+The 4-th R*-Tree has been built. Elapsed time: 0.124s
+BUILDING TIME: 0.622121s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    27.8492ms.
+
+TOTAL QUERY TIME:    5569.84ms.
+
+AVG RECALL:        0.5645
+AVG MAP:        0.394922
+AVG RATIO:         1.00865
+AVG COST:          0.100073
+AVG ROUNDS:        8.655
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.377443s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000291s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.600327s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.121s
+The 1-th R*-Tree has been built. Elapsed time: 0.123s
+The 2-th R*-Tree has been built. Elapsed time: 0.119s
+The 3-th R*-Tree has been built. Elapsed time: 0.121s
+The 4-th R*-Tree has been built. Elapsed time: 0.123s
+BUILDING TIME: 0.607511s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    23.592ms.
+
+TOTAL QUERY TIME:    4718.4ms.
+
+AVG RECALL:        0.48425
+AVG MAP:        0.30246
+AVG RATIO:         1.01163
+AVG COST:          0.100073
+AVG ROUNDS:        6.175
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.25
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.376988s.
+
+LOADING BENMARK...
+LOADING TIME: 2.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00029s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.599226s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.117s
+The 1-th R*-Tree has been built. Elapsed time: 0.124s
+The 2-th R*-Tree has been built. Elapsed time: 0.121s
+The 3-th R*-Tree has been built. Elapsed time: 0.118s
+The 4-th R*-Tree has been built. Elapsed time: 0.123s
+BUILDING TIME: 0.602618s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    38.0784ms.
+
+TOTAL QUERY TIME:    7615.68ms.
+
+AVG RECALL:        0.58525
+AVG MAP:        0.408986
+AVG RATIO:         1.00802
+AVG COST:          0.100073
+AVG ROUNDS:        16.18
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.374407s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000551s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.20544s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.123s
+The 1-th R*-Tree has been built. Elapsed time: 0.122s
+The 2-th R*-Tree has been built. Elapsed time: 0.126s
+The 3-th R*-Tree has been built. Elapsed time: 0.125s
+The 4-th R*-Tree has been built. Elapsed time: 0.130s
+The 5-th R*-Tree has been built. Elapsed time: 0.119s
+The 6-th R*-Tree has been built. Elapsed time: 0.124s
+The 7-th R*-Tree has been built. Elapsed time: 0.131s
+The 8-th R*-Tree has been built. Elapsed time: 0.122s
+The 9-th R*-Tree has been built. Elapsed time: 0.120s
+BUILDING TIME: 1.24141s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    38.2366ms.
+
+TOTAL QUERY TIME:    7647.32ms.
+
+AVG RECALL:        0.59175
+AVG MAP:        0.420291
+AVG RATIO:         1.00766
+AVG COST:          0.100073
+AVG ROUNDS:        8.445
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.378489s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000817s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.8236s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.123s
+The 1-th R*-Tree has been built. Elapsed time: 0.127s
+The 2-th R*-Tree has been built. Elapsed time: 0.122s
+The 3-th R*-Tree has been built. Elapsed time: 0.129s
+The 4-th R*-Tree has been built. Elapsed time: 0.122s
+The 5-th R*-Tree has been built. Elapsed time: 0.123s
+The 6-th R*-Tree has been built. Elapsed time: 0.126s
+The 7-th R*-Tree has been built. Elapsed time: 0.124s
+The 8-th R*-Tree has been built. Elapsed time: 0.126s
+The 9-th R*-Tree has been built. Elapsed time: 0.133s
+The 10-th R*-Tree has been built. Elapsed time: 0.126s
+The 11-th R*-Tree has been built. Elapsed time: 0.132s
+The 12-th R*-Tree has been built. Elapsed time: 0.126s
+The 13-th R*-Tree has been built. Elapsed time: 0.126s
+The 14-th R*-Tree has been built. Elapsed time: 0.129s
+BUILDING TIME: 1.89291s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    47.3104ms.
+
+TOTAL QUERY TIME:    9462.09ms.
+
+AVG RECALL:        0.61075
+AVG MAP:        0.437805
+AVG RATIO:         1.00723
+AVG COST:          0.100073
+AVG ROUNDS:        8.3
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.375677s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000346s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.702917s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.132s
+The 1-th R*-Tree has been built. Elapsed time: 0.126s
+The 2-th R*-Tree has been built. Elapsed time: 0.127s
+The 3-th R*-Tree has been built. Elapsed time: 0.131s
+The 4-th R*-Tree has been built. Elapsed time: 0.132s
+BUILDING TIME: 0.648237s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    32.2531ms.
+
+TOTAL QUERY TIME:    6450.61ms.
+
+AVG RECALL:        0.58975
+AVG MAP:        0.424173
+AVG RATIO:         1.00785
+AVG COST:          0.100073
+AVG ROUNDS:        8.93
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.376072s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000401s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.806529s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.178s
+The 1-th R*-Tree has been built. Elapsed time: 0.179s
+The 2-th R*-Tree has been built. Elapsed time: 0.176s
+The 3-th R*-Tree has been built. Elapsed time: 0.175s
+The 4-th R*-Tree has been built. Elapsed time: 0.186s
+BUILDING TIME: 0.893074s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    32.6935ms.
+
+TOTAL QUERY TIME:    6538.7ms.
+
+AVG RECALL:        0.6045
+AVG MAP:        0.432663
+AVG RATIO:         1.00766
+AVG COST:          0.100073
+AVG ROUNDS:        9.085
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.376114s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000289s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.603714s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.121s
+The 1-th R*-Tree has been built. Elapsed time: 0.118s
+The 2-th R*-Tree has been built. Elapsed time: 0.122s
+The 3-th R*-Tree has been built. Elapsed time: 0.123s
+The 4-th R*-Tree has been built. Elapsed time: 0.119s
+BUILDING TIME: 0.603229s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    21.8094ms.
+
+TOTAL QUERY TIME:    4361.88ms.
+
+AVG RECALL:        0.55375
+AVG MAP:        0.372625
+AVG RATIO:         1.00863
+AVG COST:          0.100073
+AVG ROUNDS:        2.365
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.376879s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000293s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.599215s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.117s
+The 1-th R*-Tree has been built. Elapsed time: 0.122s
+The 2-th R*-Tree has been built. Elapsed time: 0.122s
+The 3-th R*-Tree has been built. Elapsed time: 0.122s
+The 4-th R*-Tree has been built. Elapsed time: 0.121s
+BUILDING TIME: 0.603478s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    17.2525ms.
+
+TOTAL QUERY TIME:    3450.49ms.
+
+AVG RECALL:        0.534
+AVG MAP:        0.357819
+AVG RATIO:         1.00993
+AVG COST:          0.100073
+AVG ROUNDS:        1.51
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.25
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.377532s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00029s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.600475s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.122s
+The 1-th R*-Tree has been built. Elapsed time: 0.123s
+The 2-th R*-Tree has been built. Elapsed time: 0.123s
+The 3-th R*-Tree has been built. Elapsed time: 0.123s
+The 4-th R*-Tree has been built. Elapsed time: 0.122s
+BUILDING TIME: 0.613316s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    33.5664ms.
+
+TOTAL QUERY TIME:    6713.27ms.
+
+AVG RECALL:        0.597
+AVG MAP:        0.42753
+AVG RATIO:         1.00783
+AVG COST:          0.100073
+AVG ROUNDS:        4.725
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.379091s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00029s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.599836s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.123s
+The 1-th R*-Tree has been built. Elapsed time: 0.122s
+The 2-th R*-Tree has been built. Elapsed time: 0.121s
+The 3-th R*-Tree has been built. Elapsed time: 0.123s
+The 4-th R*-Tree has been built. Elapsed time: 0.123s
+BUILDING TIME: 0.611846s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    11.1218ms.
+
+TOTAL QUERY TIME:    2224.35ms.
+
+AVG RECALL:        0.04875
+AVG MAP:        0.0199434
+AVG RATIO:         1.12276
+AVG COST:          0.100073
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.375031s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000291s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.601029s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.121s
+The 1-th R*-Tree has been built. Elapsed time: 0.121s
+The 2-th R*-Tree has been built. Elapsed time: 0.123s
+The 3-th R*-Tree has been built. Elapsed time: 0.121s
+The 4-th R*-Tree has been built. Elapsed time: 0.119s
+BUILDING TIME: 0.606544s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    11.1233ms.
+
+TOTAL QUERY TIME:    2224.66ms.
+
+AVG RECALL:        0.04875
+AVG MAP:        0.0199434
+AVG RATIO:         1.12276
+AVG COST:          0.100073
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.374087s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000563s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.20405s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.123s
+The 1-th R*-Tree has been built. Elapsed time: 0.123s
+The 2-th R*-Tree has been built. Elapsed time: 0.123s
+The 3-th R*-Tree has been built. Elapsed time: 0.125s
+The 4-th R*-Tree has been built. Elapsed time: 0.122s
+The 5-th R*-Tree has been built. Elapsed time: 0.123s
+The 6-th R*-Tree has been built. Elapsed time: 0.129s
+The 7-th R*-Tree has been built. Elapsed time: 0.122s
+The 8-th R*-Tree has been built. Elapsed time: 0.123s
+The 9-th R*-Tree has been built. Elapsed time: 0.122s
+BUILDING TIME: 1.2342s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    27.6353ms.
+
+TOTAL QUERY TIME:    5527.06ms.
+
+AVG RECALL:        0.58475
+AVG MAP:        0.403989
+AVG RATIO:         1.0077
+AVG COST:          0.100073
+AVG ROUNDS:        2.145
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.37638s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000824s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.81886s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.127s
+The 1-th R*-Tree has been built. Elapsed time: 0.123s
+The 2-th R*-Tree has been built. Elapsed time: 0.129s
+The 3-th R*-Tree has been built. Elapsed time: 0.118s
+The 4-th R*-Tree has been built. Elapsed time: 0.119s
+The 5-th R*-Tree has been built. Elapsed time: 0.126s
+The 6-th R*-Tree has been built. Elapsed time: 0.122s
+The 7-th R*-Tree has been built. Elapsed time: 0.123s
+The 8-th R*-Tree has been built. Elapsed time: 0.133s
+The 9-th R*-Tree has been built. Elapsed time: 0.122s
+The 10-th R*-Tree has been built. Elapsed time: 0.130s
+The 11-th R*-Tree has been built. Elapsed time: 0.127s
+The 12-th R*-Tree has been built. Elapsed time: 0.122s
+The 13-th R*-Tree has been built. Elapsed time: 0.132s
+The 14-th R*-Tree has been built. Elapsed time: 0.126s
+BUILDING TIME: 1.8799s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    32.3566ms.
+
+TOTAL QUERY TIME:    6471.32ms.
+
+AVG RECALL:        0.6095
+AVG MAP:        0.437147
+AVG RATIO:         1.00696
+AVG COST:          0.100073
+AVG ROUNDS:        2.015
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.375976s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000343s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.702435s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.133s
+The 1-th R*-Tree has been built. Elapsed time: 0.133s
+The 2-th R*-Tree has been built. Elapsed time: 0.130s
+The 3-th R*-Tree has been built. Elapsed time: 0.132s
+The 4-th R*-Tree has been built. Elapsed time: 0.133s
+BUILDING TIME: 0.660762s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    25.6159ms.
+
+TOTAL QUERY TIME:    5123.17ms.
+
+AVG RECALL:        0.57025
+AVG MAP:        0.397252
+AVG RATIO:         1.00824
+AVG COST:          0.100073
+AVG ROUNDS:        2.555
+
+QUERY FINISH... 
+
+
+Using DB-LSH for nuswide ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/nuswide/
+N=    268643
+dim=  500
+
+LOADING TIME: 0.374279s.
+
+LOADING BENMARK...
+LOADING TIME: 2.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.0004s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.805071s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.176s
+The 1-th R*-Tree has been built. Elapsed time: 0.177s
+The 2-th R*-Tree has been built. Elapsed time: 0.176s
+The 3-th R*-Tree has been built. Elapsed time: 0.177s
+The 4-th R*-Tree has been built. Elapsed time: 0.188s
+BUILDING TIME: 0.894179s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    27.338ms.
+
+TOTAL QUERY TIME:    5467.61ms.
+
+AVG RECALL:        0.607
+AVG MAP:        0.44302
+AVG RATIO:         1.00738
+AVG COST:          0.100073
+AVG ROUNDS:        2.7
+
+QUERY FINISH... 
+
+

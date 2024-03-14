@@ -1,0 +1,1834 @@
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 11.9033s.
+
+MAKING BENMARK...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+MAKING TIME: 818.383s.
+
+SAVING BENMARK...
+SAVING TIME: 0.000997s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00024s.
+
+COMPUTING HASH...
+COMPUTING TIME: 9.55679s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.806s
+The 1-th R*-Tree has been built. Elapsed time: 5.824s
+The 2-th R*-Tree has been built. Elapsed time: 5.764s
+The 3-th R*-Tree has been built. Elapsed time: 6.025s
+The 4-th R*-Tree has been built. Elapsed time: 6.450s
+BUILDING TIME: 29.8687s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    267.772ms.
+
+TOTAL QUERY TIME:    267772ms.
+
+AVG RECALL:        0.10461
+AVG MAP:        0.040189
+AVG RATIO:         1.20235
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.75
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 9.71495s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000225s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000226s.
+
+COMPUTING HASH...
+COMPUTING TIME: 9.74284s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.847s
+The 1-th R*-Tree has been built. Elapsed time: 6.063s
+The 2-th R*-Tree has been built. Elapsed time: 6.160s
+The 3-th R*-Tree has been built. Elapsed time: 6.133s
+The 4-th R*-Tree has been built. Elapsed time: 6.093s
+BUILDING TIME: 30.2955s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    262.328ms.
+
+TOTAL QUERY TIME:    262328ms.
+
+AVG RECALL:        0.07268
+AVG MAP:        0.0226003
+AVG RATIO:         1.24019
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.25
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 9.55691s.
+
+LOADING BENMARK...
+LOADING TIME: 0.00025s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000229s.
+
+COMPUTING HASH...
+COMPUTING TIME: 9.64112s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.516s
+The 1-th R*-Tree has been built. Elapsed time: 5.556s
+The 2-th R*-Tree has been built. Elapsed time: 5.732s
+The 3-th R*-Tree has been built. Elapsed time: 5.870s
+The 4-th R*-Tree has been built. Elapsed time: 6.103s
+BUILDING TIME: 28.7777s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    286.607ms.
+
+TOTAL QUERY TIME:    286607ms.
+
+AVG RECALL:        0.24941
+AVG MAP:        0.131825
+AVG RATIO:         1.10517
+AVG COST:          0.10002
+AVG ROUNDS:        1.001
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 9.10604s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000232s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000436s.
+
+COMPUTING HASH...
+COMPUTING TIME: 18.581s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 6.271s
+The 1-th R*-Tree has been built. Elapsed time: 6.565s
+The 2-th R*-Tree has been built. Elapsed time: 6.517s
+The 3-th R*-Tree has been built. Elapsed time: 6.458s
+The 4-th R*-Tree has been built. Elapsed time: 6.300s
+The 5-th R*-Tree has been built. Elapsed time: 6.324s
+The 6-th R*-Tree has been built. Elapsed time: 6.359s
+The 7-th R*-Tree has been built. Elapsed time: 6.290s
+The 8-th R*-Tree has been built. Elapsed time: 6.152s
+The 9-th R*-Tree has been built. Elapsed time: 6.324s
+BUILDING TIME: 63.5616s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    270.081ms.
+
+TOTAL QUERY TIME:    270081ms.
+
+AVG RECALL:        0.10461
+AVG MAP:        0.040189
+AVG RATIO:         1.20235
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 7.48869s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000231s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000652s.
+
+COMPUTING HASH...
+COMPUTING TIME: 26.0933s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.651s
+The 1-th R*-Tree has been built. Elapsed time: 5.752s
+The 2-th R*-Tree has been built. Elapsed time: 5.788s
+The 3-th R*-Tree has been built. Elapsed time: 5.801s
+The 4-th R*-Tree has been built. Elapsed time: 5.744s
+The 5-th R*-Tree has been built. Elapsed time: 5.784s
+The 6-th R*-Tree has been built. Elapsed time: 5.772s
+The 7-th R*-Tree has been built. Elapsed time: 5.825s
+The 8-th R*-Tree has been built. Elapsed time: 5.749s
+The 9-th R*-Tree has been built. Elapsed time: 5.771s
+The 10-th R*-Tree has been built. Elapsed time: 5.821s
+The 11-th R*-Tree has been built. Elapsed time: 5.707s
+The 12-th R*-Tree has been built. Elapsed time: 5.729s
+The 13-th R*-Tree has been built. Elapsed time: 5.811s
+The 14-th R*-Tree has been built. Elapsed time: 5.680s
+BUILDING TIME: 86.3842s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    272.164ms.
+
+TOTAL QUERY TIME:    272164ms.
+
+AVG RECALL:        0.10461
+AVG MAP:        0.040189
+AVG RATIO:         1.20235
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 8.7703s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000229s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000267s.
+
+COMPUTING HASH...
+COMPUTING TIME: 10.2635s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.749s
+The 1-th R*-Tree has been built. Elapsed time: 5.800s
+The 2-th R*-Tree has been built. Elapsed time: 5.786s
+The 3-th R*-Tree has been built. Elapsed time: 5.747s
+The 4-th R*-Tree has been built. Elapsed time: 5.802s
+BUILDING TIME: 28.8834s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    263.551ms.
+
+TOTAL QUERY TIME:    263551ms.
+
+AVG RECALL:        0.11011
+AVG MAP:        0.036259
+AVG RATIO:         1.12961
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 8.82752s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000222s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000314s.
+
+COMPUTING HASH...
+COMPUTING TIME: 11.7938s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.682s
+The 1-th R*-Tree has been built. Elapsed time: 5.686s
+The 2-th R*-Tree has been built. Elapsed time: 5.747s
+The 3-th R*-Tree has been built. Elapsed time: 5.716s
+The 4-th R*-Tree has been built. Elapsed time: 5.710s
+BUILDING TIME: 28.541s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    265.121ms.
+
+TOTAL QUERY TIME:    265121ms.
+
+AVG RECALL:        0.12599
+AVG MAP:        0.0417748
+AVG RATIO:         1.11693
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 8.81834s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000224s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000232s.
+
+COMPUTING HASH...
+COMPUTING TIME: 8.65704s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.621s
+The 1-th R*-Tree has been built. Elapsed time: 5.684s
+The 2-th R*-Tree has been built. Elapsed time: 5.689s
+The 3-th R*-Tree has been built. Elapsed time: 5.713s
+The 4-th R*-Tree has been built. Elapsed time: 5.636s
+BUILDING TIME: 28.3431s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    256.933ms.
+
+TOTAL QUERY TIME:    256933ms.
+
+AVG RECALL:        0.06742
+AVG MAP:        0.0200762
+AVG RATIO:         1.24738
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.75
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 8.69806s.
+
+LOADING BENMARK...
+LOADING TIME: 0.00022s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000226s.
+
+COMPUTING HASH...
+COMPUTING TIME: 8.6113s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.629s
+The 1-th R*-Tree has been built. Elapsed time: 5.678s
+The 2-th R*-Tree has been built. Elapsed time: 5.725s
+The 3-th R*-Tree has been built. Elapsed time: 5.713s
+The 4-th R*-Tree has been built. Elapsed time: 5.650s
+BUILDING TIME: 28.3955s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    259.42ms.
+
+TOTAL QUERY TIME:    259420ms.
+
+AVG RECALL:        0.06742
+AVG MAP:        0.0200762
+AVG RATIO:         1.24738
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.25
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 8.7186s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000229s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000226s.
+
+COMPUTING HASH...
+COMPUTING TIME: 8.63286s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.741s
+The 1-th R*-Tree has been built. Elapsed time: 5.800s
+The 2-th R*-Tree has been built. Elapsed time: 5.789s
+The 3-th R*-Tree has been built. Elapsed time: 5.812s
+The 4-th R*-Tree has been built. Elapsed time: 5.756s
+BUILDING TIME: 28.898s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    251.07ms.
+
+TOTAL QUERY TIME:    251070ms.
+
+AVG RECALL:        0.06742
+AVG MAP:        0.0200762
+AVG RATIO:         1.24738
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 8.7018s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000233s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000225s.
+
+COMPUTING HASH...
+COMPUTING TIME: 8.63225s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.709s
+The 1-th R*-Tree has been built. Elapsed time: 5.771s
+The 2-th R*-Tree has been built. Elapsed time: 5.761s
+The 3-th R*-Tree has been built. Elapsed time: 5.793s
+The 4-th R*-Tree has been built. Elapsed time: 5.717s
+BUILDING TIME: 28.7508s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    263.503ms.
+
+TOTAL QUERY TIME:    263503ms.
+
+AVG RECALL:        0.06742
+AVG MAP:        0.0200762
+AVG RATIO:         1.24738
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 8.75683s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000234s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000228s.
+
+COMPUTING HASH...
+COMPUTING TIME: 8.62271s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.639s
+The 1-th R*-Tree has been built. Elapsed time: 5.723s
+The 2-th R*-Tree has been built. Elapsed time: 5.704s
+The 3-th R*-Tree has been built. Elapsed time: 5.752s
+The 4-th R*-Tree has been built. Elapsed time: 5.669s
+BUILDING TIME: 28.4871s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    248.871ms.
+
+TOTAL QUERY TIME:    248871ms.
+
+AVG RECALL:        0.06742
+AVG MAP:        0.0200762
+AVG RATIO:         1.24738
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 8.67194s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000228s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000438s.
+
+COMPUTING HASH...
+COMPUTING TIME: 17.2391s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.654s
+The 1-th R*-Tree has been built. Elapsed time: 5.735s
+The 2-th R*-Tree has been built. Elapsed time: 5.723s
+The 3-th R*-Tree has been built. Elapsed time: 5.761s
+The 4-th R*-Tree has been built. Elapsed time: 5.670s
+The 5-th R*-Tree has been built. Elapsed time: 5.711s
+The 6-th R*-Tree has been built. Elapsed time: 5.703s
+The 7-th R*-Tree has been built. Elapsed time: 5.745s
+The 8-th R*-Tree has been built. Elapsed time: 5.740s
+The 9-th R*-Tree has been built. Elapsed time: 5.774s
+BUILDING TIME: 57.2151s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    258.063ms.
+
+TOTAL QUERY TIME:    258063ms.
+
+AVG RECALL:        0.06742
+AVG MAP:        0.0200762
+AVG RATIO:         1.24738
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 8.79129s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000248s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000643s.
+
+COMPUTING HASH...
+COMPUTING TIME: 26.064s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.705s
+The 1-th R*-Tree has been built. Elapsed time: 5.758s
+The 2-th R*-Tree has been built. Elapsed time: 5.817s
+The 3-th R*-Tree has been built. Elapsed time: 5.832s
+The 4-th R*-Tree has been built. Elapsed time: 5.780s
+The 5-th R*-Tree has been built. Elapsed time: 5.790s
+The 6-th R*-Tree has been built. Elapsed time: 5.800s
+The 7-th R*-Tree has been built. Elapsed time: 5.832s
+The 8-th R*-Tree has been built. Elapsed time: 5.715s
+The 9-th R*-Tree has been built. Elapsed time: 5.800s
+The 10-th R*-Tree has been built. Elapsed time: 5.875s
+The 11-th R*-Tree has been built. Elapsed time: 5.795s
+The 12-th R*-Tree has been built. Elapsed time: 5.840s
+The 13-th R*-Tree has been built. Elapsed time: 5.941s
+The 14-th R*-Tree has been built. Elapsed time: 5.825s
+BUILDING TIME: 87.1045s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    262.802ms.
+
+TOTAL QUERY TIME:    262802ms.
+
+AVG RECALL:        0.06742
+AVG MAP:        0.0200762
+AVG RATIO:         1.24738
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 8.92662s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000231s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000265s.
+
+COMPUTING HASH...
+COMPUTING TIME: 10.3467s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.776s
+The 1-th R*-Tree has been built. Elapsed time: 5.803s
+The 2-th R*-Tree has been built. Elapsed time: 5.802s
+The 3-th R*-Tree has been built. Elapsed time: 5.748s
+The 4-th R*-Tree has been built. Elapsed time: 5.795s
+BUILDING TIME: 28.9242s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    263.772ms.
+
+TOTAL QUERY TIME:    263772ms.
+
+AVG RECALL:        0.07035
+AVG MAP:        0.0165823
+AVG RATIO:         1.15442
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for tiny5m ...
+c=        1.5
+k=        100
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/tiny5m/
+N=    5000000
+dim=  384
+
+LOADING TIME: 8.91421s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000225s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000308s.
+
+COMPUTING HASH...
+COMPUTING TIME: 11.7209s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 5.737s
+The 1-th R*-Tree has been built. Elapsed time: 5.721s
+The 2-th R*-Tree has been built. Elapsed time: 5.783s
+The 3-th R*-Tree has been built. Elapsed time: 5.724s
+The 4-th R*-Tree has been built. Elapsed time: 5.746s
+BUILDING TIME: 28.7117s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    258.731ms.
+
+TOTAL QUERY TIME:    258731ms.
+
+AVG RECALL:        0.07888
+AVG MAP:        0.0154844
+AVG RATIO:         1.14475
+AVG COST:          0.10002
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.351386s.
+
+MAKING BENMARK...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+MAKING TIME: 1.67522s.
+
+SAVING BENMARK...
+SAVING TIME: 0.00021s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000183s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.187832s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.055s
+The 1-th R*-Tree has been built. Elapsed time: 0.055s
+The 2-th R*-Tree has been built. Elapsed time: 0.055s
+The 3-th R*-Tree has been built. Elapsed time: 0.055s
+The 4-th R*-Tree has been built. Elapsed time: 0.055s
+BUILDING TIME: 0.275377s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    6.01413ms.
+
+TOTAL QUERY TIME:    601.413ms.
+
+AVG RECALL:        0.7069
+AVG MAP:        0.618786
+AVG RATIO:         1.02852
+AVG COST:          0.100727
+AVG ROUNDS:        1.2
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.75
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.139516s.
+
+LOADING BENMARK...
+LOADING TIME: 2.9e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000181s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.188045s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.055s
+The 1-th R*-Tree has been built. Elapsed time: 0.055s
+The 2-th R*-Tree has been built. Elapsed time: 0.055s
+The 3-th R*-Tree has been built. Elapsed time: 0.055s
+The 4-th R*-Tree has been built. Elapsed time: 0.055s
+BUILDING TIME: 0.274031s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    4.6794ms.
+
+TOTAL QUERY TIME:    467.94ms.
+
+AVG RECALL:        0.43
+AVG MAP:        0.343111
+AVG RATIO:         1.10468
+AVG COST:          0.100727
+AVG ROUNDS:        1.01
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.25
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.139545s.
+
+LOADING BENMARK...
+LOADING TIME: 3.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000182s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.187979s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.055s
+The 1-th R*-Tree has been built. Elapsed time: 0.055s
+The 2-th R*-Tree has been built. Elapsed time: 0.055s
+The 3-th R*-Tree has been built. Elapsed time: 0.055s
+The 4-th R*-Tree has been built. Elapsed time: 0.055s
+BUILDING TIME: 0.275106s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    9.69084ms.
+
+TOTAL QUERY TIME:    969.084ms.
+
+AVG RECALL:        0.893
+AVG MAP:        0.848202
+AVG RATIO:         1.00505
+AVG COST:          0.100727
+AVG ROUNDS:        2.45
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.138502s.
+
+LOADING BENMARK...
+LOADING TIME: 2.6e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000348s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.375526s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.055s
+The 1-th R*-Tree has been built. Elapsed time: 0.055s
+The 2-th R*-Tree has been built. Elapsed time: 0.055s
+The 3-th R*-Tree has been built. Elapsed time: 0.057s
+The 4-th R*-Tree has been built. Elapsed time: 0.057s
+The 5-th R*-Tree has been built. Elapsed time: 0.058s
+The 6-th R*-Tree has been built. Elapsed time: 0.057s
+The 7-th R*-Tree has been built. Elapsed time: 0.057s
+The 8-th R*-Tree has been built. Elapsed time: 0.057s
+The 9-th R*-Tree has been built. Elapsed time: 0.058s
+BUILDING TIME: 0.566027s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    6.34411ms.
+
+TOTAL QUERY TIME:    634.411ms.
+
+AVG RECALL:        0.7122
+AVG MAP:        0.626732
+AVG RATIO:         1.02806
+AVG COST:          0.100727
+AVG ROUNDS:        1.1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.141463s.
+
+LOADING BENMARK...
+LOADING TIME: 2.7e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00051s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.567549s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.061s
+The 1-th R*-Tree has been built. Elapsed time: 0.058s
+The 2-th R*-Tree has been built. Elapsed time: 0.058s
+The 3-th R*-Tree has been built. Elapsed time: 0.058s
+The 4-th R*-Tree has been built. Elapsed time: 0.058s
+The 5-th R*-Tree has been built. Elapsed time: 0.058s
+The 6-th R*-Tree has been built. Elapsed time: 0.058s
+The 7-th R*-Tree has been built. Elapsed time: 0.058s
+The 8-th R*-Tree has been built. Elapsed time: 0.058s
+The 9-th R*-Tree has been built. Elapsed time: 0.058s
+The 10-th R*-Tree has been built. Elapsed time: 0.058s
+The 11-th R*-Tree has been built. Elapsed time: 0.058s
+The 12-th R*-Tree has been built. Elapsed time: 0.058s
+The 13-th R*-Tree has been built. Elapsed time: 0.058s
+The 14-th R*-Tree has been built. Elapsed time: 0.058s
+BUILDING TIME: 0.871143s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    6.57143ms.
+
+TOTAL QUERY TIME:    657.143ms.
+
+AVG RECALL:        0.7145
+AVG MAP:        0.62965
+AVG RATIO:         1.02795
+AVG COST:          0.100727
+AVG ROUNDS:        1.07
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.13827s.
+
+LOADING BENMARK...
+LOADING TIME: 2.6e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000215s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.221019s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.058s
+The 1-th R*-Tree has been built. Elapsed time: 0.057s
+The 2-th R*-Tree has been built. Elapsed time: 0.057s
+The 3-th R*-Tree has been built. Elapsed time: 0.057s
+The 4-th R*-Tree has been built. Elapsed time: 0.057s
+BUILDING TIME: 0.286667s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    7.24225ms.
+
+TOTAL QUERY TIME:    724.225ms.
+
+AVG RECALL:        0.8327
+AVG MAP:        0.772372
+AVG RATIO:         1.01387
+AVG COST:          0.100727
+AVG ROUNDS:        1.34
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.139259s.
+
+LOADING BENMARK...
+LOADING TIME: 2.6e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000248s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.257386s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.060s
+The 1-th R*-Tree has been built. Elapsed time: 0.059s
+The 2-th R*-Tree has been built. Elapsed time: 0.059s
+The 3-th R*-Tree has been built. Elapsed time: 0.060s
+The 4-th R*-Tree has been built. Elapsed time: 0.059s
+BUILDING TIME: 0.29724s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    9.15038ms.
+
+TOTAL QUERY TIME:    915.038ms.
+
+AVG RECALL:        0.8749
+AVG MAP:        0.820151
+AVG RATIO:         1.00766
+AVG COST:          0.100727
+AVG ROUNDS:        1.51
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.138588s.
+
+LOADING BENMARK...
+LOADING TIME: 4.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000377s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.190451s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.055s
+The 1-th R*-Tree has been built. Elapsed time: 0.055s
+The 2-th R*-Tree has been built. Elapsed time: 0.055s
+The 3-th R*-Tree has been built. Elapsed time: 0.055s
+The 4-th R*-Tree has been built. Elapsed time: 0.055s
+BUILDING TIME: 0.274301s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    2.82996ms.
+
+TOTAL QUERY TIME:    282.996ms.
+
+AVG RECALL:        0.1748
+AVG MAP:        0.0974996
+AVG RATIO:         1.21941
+AVG COST:          0.100727
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.75
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.139307s.
+
+LOADING BENMARK...
+LOADING TIME: 2.5e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000188s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.188601s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.055s
+The 1-th R*-Tree has been built. Elapsed time: 0.055s
+The 2-th R*-Tree has been built. Elapsed time: 0.055s
+The 3-th R*-Tree has been built. Elapsed time: 0.055s
+The 4-th R*-Tree has been built. Elapsed time: 0.055s
+BUILDING TIME: 0.275323s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    2.83742ms.
+
+TOTAL QUERY TIME:    283.742ms.
+
+AVG RECALL:        0.1748
+AVG MAP:        0.0974996
+AVG RATIO:         1.21941
+AVG COST:          0.100727
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.25
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.138686s.
+
+LOADING BENMARK...
+LOADING TIME: 2.4e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000182s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.187726s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.055s
+The 1-th R*-Tree has been built. Elapsed time: 0.055s
+The 2-th R*-Tree has been built. Elapsed time: 0.055s
+The 3-th R*-Tree has been built. Elapsed time: 0.055s
+The 4-th R*-Tree has been built. Elapsed time: 0.055s
+BUILDING TIME: 0.274733s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    2.84869ms.
+
+TOTAL QUERY TIME:    284.869ms.
+
+AVG RECALL:        0.1748
+AVG MAP:        0.0974996
+AVG RATIO:         1.21941
+AVG COST:          0.100727
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.138583s.
+
+LOADING BENMARK...
+LOADING TIME: 2.6e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000188s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.188212s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.055s
+The 1-th R*-Tree has been built. Elapsed time: 0.055s
+The 2-th R*-Tree has been built. Elapsed time: 0.055s
+The 3-th R*-Tree has been built. Elapsed time: 0.055s
+The 4-th R*-Tree has been built. Elapsed time: 0.055s
+BUILDING TIME: 0.275029s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    2.88921ms.
+
+TOTAL QUERY TIME:    288.921ms.
+
+AVG RECALL:        0.1748
+AVG MAP:        0.0974996
+AVG RATIO:         1.21941
+AVG COST:          0.100727
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.138396s.
+
+LOADING BENMARK...
+LOADING TIME: 2.5e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000182s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.190832s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.055s
+The 1-th R*-Tree has been built. Elapsed time: 0.055s
+The 2-th R*-Tree has been built. Elapsed time: 0.055s
+The 3-th R*-Tree has been built. Elapsed time: 0.055s
+The 4-th R*-Tree has been built. Elapsed time: 0.055s
+BUILDING TIME: 0.273691s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    2.83655ms.
+
+TOTAL QUERY TIME:    283.655ms.
+
+AVG RECALL:        0.1748
+AVG MAP:        0.0974996
+AVG RATIO:         1.21941
+AVG COST:          0.100727
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        10
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.138884s.
+
+LOADING BENMARK...
+LOADING TIME: 2.4e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000343s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.375832s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.056s
+The 1-th R*-Tree has been built. Elapsed time: 0.056s
+The 2-th R*-Tree has been built. Elapsed time: 0.055s
+The 3-th R*-Tree has been built. Elapsed time: 0.057s
+The 4-th R*-Tree has been built. Elapsed time: 0.058s
+The 5-th R*-Tree has been built. Elapsed time: 0.058s
+The 6-th R*-Tree has been built. Elapsed time: 0.058s
+The 7-th R*-Tree has been built. Elapsed time: 0.058s
+The 8-th R*-Tree has been built. Elapsed time: 0.058s
+The 9-th R*-Tree has been built. Elapsed time: 0.058s
+BUILDING TIME: 0.571456s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    2.98032ms.
+
+TOTAL QUERY TIME:    298.032ms.
+
+AVG RECALL:        0.1748
+AVG MAP:        0.0974996
+AVG RATIO:         1.21941
+AVG COST:          0.100727
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        15
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.139409s.
+
+LOADING BENMARK...
+LOADING TIME: 2.5e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000524s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.571011s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.060s
+The 1-th R*-Tree has been built. Elapsed time: 0.058s
+The 2-th R*-Tree has been built. Elapsed time: 0.058s
+The 3-th R*-Tree has been built. Elapsed time: 0.058s
+The 4-th R*-Tree has been built. Elapsed time: 0.058s
+The 5-th R*-Tree has been built. Elapsed time: 0.058s
+The 6-th R*-Tree has been built. Elapsed time: 0.058s
+The 7-th R*-Tree has been built. Elapsed time: 0.058s
+The 8-th R*-Tree has been built. Elapsed time: 0.057s
+The 9-th R*-Tree has been built. Elapsed time: 0.058s
+The 10-th R*-Tree has been built. Elapsed time: 0.058s
+The 11-th R*-Tree has been built. Elapsed time: 0.058s
+The 12-th R*-Tree has been built. Elapsed time: 0.058s
+The 13-th R*-Tree has been built. Elapsed time: 0.058s
+The 14-th R*-Tree has been built. Elapsed time: 0.058s
+BUILDING TIME: 0.869824s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    2.92528ms.
+
+TOTAL QUERY TIME:    292.528ms.
+
+AVG RECALL:        0.1748
+AVG MAP:        0.0974996
+AVG RATIO:         1.21941
+AVG COST:          0.100727
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        5
+K=        12
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.140057s.
+
+LOADING BENMARK...
+LOADING TIME: 2.5e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000218s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.22146s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.058s
+The 1-th R*-Tree has been built. Elapsed time: 0.057s
+The 2-th R*-Tree has been built. Elapsed time: 0.058s
+The 3-th R*-Tree has been built. Elapsed time: 0.057s
+The 4-th R*-Tree has been built. Elapsed time: 0.057s
+BUILDING TIME: 0.287053s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    2.99142ms.
+
+TOTAL QUERY TIME:    299.142ms.
+
+AVG RECALL:        0.0714
+AVG MAP:        0.0331061
+AVG RATIO:         1.28633
+AVG COST:          0.100727
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for yahoomusic ...
+c=        1.5
+k=        100
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/yahoomusic/
+N=    136736
+dim=  300
+
+LOADING TIME: 0.138951s.
+
+LOADING BENMARK...
+LOADING TIME: 2.5e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000247s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.25578s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.060s
+The 1-th R*-Tree has been built. Elapsed time: 0.059s
+The 2-th R*-Tree has been built. Elapsed time: 0.059s
+The 3-th R*-Tree has been built. Elapsed time: 0.059s
+The 4-th R*-Tree has been built. Elapsed time: 0.059s
+BUILDING TIME: 0.296518s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    3.01655ms.
+
+TOTAL QUERY TIME:    301.655ms.
+
+AVG RECALL:        0.1125
+AVG MAP:        0.081134
+AVG RATIO:         1.37026
+AVG COST:          0.100727
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
