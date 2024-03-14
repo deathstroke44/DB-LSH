@@ -1,0 +1,910 @@
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 2.76466s.
+
+LOADING BENMARK...
+LOADING TIME: 6.5e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000234s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.30325s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.936s
+The 1-th R*-Tree has been built. Elapsed time: 0.941s
+The 2-th R*-Tree has been built. Elapsed time: 0.936s
+The 3-th R*-Tree has been built. Elapsed time: 0.941s
+The 4-th R*-Tree has been built. Elapsed time: 0.940s
+BUILDING TIME: 4.69281s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    140.39ms.
+
+TOTAL QUERY TIME:    14039ms.
+
+AVG RECALL:        0.5892
+AVG MAP:        0.475328
+AVG RATIO:         1.00799
+AVG COST:          0.1501
+AVG ROUNDS:        7.06
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.75
+k=        100
+L=        5
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 1.30375s.
+
+LOADING BENMARK...
+LOADING TIME: 4.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.0002s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.34195s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.252s
+The 1-th R*-Tree has been built. Elapsed time: 1.206s
+The 2-th R*-Tree has been built. Elapsed time: 1.215s
+The 3-th R*-Tree has been built. Elapsed time: 1.195s
+The 4-th R*-Tree has been built. Elapsed time: 1.226s
+BUILDING TIME: 6.09455s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    129.713ms.
+
+TOTAL QUERY TIME:    12971.3ms.
+
+AVG RECALL:        0.5803
+AVG MAP:        0.467371
+AVG RATIO:         1.00816
+AVG COST:          0.1501
+AVG ROUNDS:        5
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.25
+k=        100
+L=        5
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 1.01093s.
+
+LOADING BENMARK...
+LOADING TIME: 3.9e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000195s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.32715s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.157s
+The 1-th R*-Tree has been built. Elapsed time: 1.102s
+The 2-th R*-Tree has been built. Elapsed time: 1.117s
+The 3-th R*-Tree has been built. Elapsed time: 1.107s
+The 4-th R*-Tree has been built. Elapsed time: 1.127s
+BUILDING TIME: 5.60829s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    192.95ms.
+
+TOTAL QUERY TIME:    19295ms.
+
+AVG RECALL:        0.5826
+AVG MAP:        0.464064
+AVG RATIO:         1.00778
+AVG COST:          0.1501
+AVG ROUNDS:        13.53
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        10
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 0.957936s.
+
+LOADING BENMARK...
+LOADING TIME: 3.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000354s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.66461s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.045s
+The 1-th R*-Tree has been built. Elapsed time: 1.091s
+The 2-th R*-Tree has been built. Elapsed time: 1.093s
+The 3-th R*-Tree has been built. Elapsed time: 1.233s
+The 4-th R*-Tree has been built. Elapsed time: 1.195s
+The 5-th R*-Tree has been built. Elapsed time: 1.226s
+The 6-th R*-Tree has been built. Elapsed time: 1.196s
+The 7-th R*-Tree has been built. Elapsed time: 1.190s
+The 8-th R*-Tree has been built. Elapsed time: 1.248s
+The 9-th R*-Tree has been built. Elapsed time: 1.208s
+BUILDING TIME: 11.7259s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    190.025ms.
+
+TOTAL QUERY TIME:    19002.5ms.
+
+AVG RECALL:        0.5917
+AVG MAP:        0.469464
+AVG RATIO:         1.00767
+AVG COST:          0.1501
+AVG ROUNDS:        6.91
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        15
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 1.0394s.
+
+LOADING BENMARK...
+LOADING TIME: 3.4e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000535s.
+
+COMPUTING HASH...
+COMPUTING TIME: 4.44465s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.278s
+The 1-th R*-Tree has been built. Elapsed time: 1.223s
+The 2-th R*-Tree has been built. Elapsed time: 1.217s
+The 3-th R*-Tree has been built. Elapsed time: 1.233s
+The 4-th R*-Tree has been built. Elapsed time: 1.226s
+The 5-th R*-Tree has been built. Elapsed time: 1.216s
+The 6-th R*-Tree has been built. Elapsed time: 1.166s
+The 7-th R*-Tree has been built. Elapsed time: 1.147s
+The 8-th R*-Tree has been built. Elapsed time: 1.103s
+The 9-th R*-Tree has been built. Elapsed time: 1.092s
+The 10-th R*-Tree has been built. Elapsed time: 1.120s
+The 11-th R*-Tree has been built. Elapsed time: 1.111s
+The 12-th R*-Tree has been built. Elapsed time: 1.121s
+The 13-th R*-Tree has been built. Elapsed time: 1.092s
+The 14-th R*-Tree has been built. Elapsed time: 1.140s
+BUILDING TIME: 17.4848s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    217.622ms.
+
+TOTAL QUERY TIME:    21762.2ms.
+
+AVG RECALL:        0.5893
+AVG MAP:        0.467956
+AVG RATIO:         1.00769
+AVG COST:          0.1501
+AVG ROUNDS:        6.91
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        5
+K=        12
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 0.976443s.
+
+LOADING BENMARK...
+LOADING TIME: 3.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000229s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.5352s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.062s
+The 1-th R*-Tree has been built. Elapsed time: 1.094s
+The 2-th R*-Tree has been built. Elapsed time: 1.175s
+The 3-th R*-Tree has been built. Elapsed time: 1.183s
+The 4-th R*-Tree has been built. Elapsed time: 1.236s
+BUILDING TIME: 5.74948s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    162.254ms.
+
+TOTAL QUERY TIME:    16225.4ms.
+
+AVG RECALL:        0.5934
+AVG MAP:        0.460984
+AVG RATIO:         1.00755
+AVG COST:          0.1501
+AVG ROUNDS:        7.29
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        5
+K=        14
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 0.953461s.
+
+LOADING BENMARK...
+LOADING TIME: 3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000259s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.7625s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.094s
+The 1-th R*-Tree has been built. Elapsed time: 1.092s
+The 2-th R*-Tree has been built. Elapsed time: 1.081s
+The 3-th R*-Tree has been built. Elapsed time: 1.011s
+The 4-th R*-Tree has been built. Elapsed time: 1.036s
+BUILDING TIME: 5.31395s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    191.11ms.
+
+TOTAL QUERY TIME:    19111ms.
+
+AVG RECALL:        0.606
+AVG MAP:        0.474802
+AVG RATIO:         1.00745
+AVG COST:          0.1501
+AVG ROUNDS:        7.8
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 0.970715s.
+
+LOADING BENMARK...
+LOADING TIME: 3.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000204s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.32556s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.036s
+The 1-th R*-Tree has been built. Elapsed time: 1.076s
+The 2-th R*-Tree has been built. Elapsed time: 1.230s
+The 3-th R*-Tree has been built. Elapsed time: 1.184s
+The 4-th R*-Tree has been built. Elapsed time: 1.162s
+BUILDING TIME: 5.68834s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    96.3991ms.
+
+TOTAL QUERY TIME:    9639.91ms.
+
+AVG RECALL:        0.5735
+AVG MAP:        0.46201
+AVG RATIO:         1.0084
+AVG COST:          0.1501
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.75
+k=        100
+L=        5
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 0.917745s.
+
+LOADING BENMARK...
+LOADING TIME: 3.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000175s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.15414s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.913s
+The 1-th R*-Tree has been built. Elapsed time: 0.932s
+The 2-th R*-Tree has been built. Elapsed time: 0.937s
+The 3-th R*-Tree has been built. Elapsed time: 0.921s
+The 4-th R*-Tree has been built. Elapsed time: 0.940s
+BUILDING TIME: 4.64331s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    70.2853ms.
+
+TOTAL QUERY TIME:    7028.53ms.
+
+AVG RECALL:        0.21
+AVG MAP:        0.100175
+AVG RATIO:         1.06
+AVG COST:          0.1501
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.25
+k=        100
+L=        5
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 0.89279s.
+
+LOADING BENMARK...
+LOADING TIME: 3.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000191s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.18317s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.952s
+The 1-th R*-Tree has been built. Elapsed time: 0.970s
+The 2-th R*-Tree has been built. Elapsed time: 0.953s
+The 3-th R*-Tree has been built. Elapsed time: 0.961s
+The 4-th R*-Tree has been built. Elapsed time: 0.978s
+BUILDING TIME: 4.81361s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    117.678ms.
+
+TOTAL QUERY TIME:    11767.8ms.
+
+AVG RECALL:        0.5986
+AVG MAP:        0.480644
+AVG RATIO:         1.00759
+AVG COST:          0.1501
+AVG ROUNDS:        1.97
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 0.896851s.
+
+LOADING BENMARK...
+LOADING TIME: 2.7e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00016s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.17032s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.931s
+The 1-th R*-Tree has been built. Elapsed time: 0.944s
+The 2-th R*-Tree has been built. Elapsed time: 0.955s
+The 3-th R*-Tree has been built. Elapsed time: 0.954s
+The 4-th R*-Tree has been built. Elapsed time: 0.926s
+BUILDING TIME: 4.7112s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    61.7598ms.
+
+TOTAL QUERY TIME:    6175.98ms.
+
+AVG RECALL:        0.0964
+AVG MAP:        0.0453988
+AVG RATIO:         1.14994
+AVG COST:          0.1501
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 0.88336s.
+
+LOADING BENMARK...
+LOADING TIME: 3.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000191s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.16099s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.939s
+The 1-th R*-Tree has been built. Elapsed time: 0.944s
+The 2-th R*-Tree has been built. Elapsed time: 0.971s
+The 3-th R*-Tree has been built. Elapsed time: 0.971s
+The 4-th R*-Tree has been built. Elapsed time: 0.924s
+BUILDING TIME: 4.75008s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    60.8218ms.
+
+TOTAL QUERY TIME:    6082.18ms.
+
+AVG RECALL:        0.0964
+AVG MAP:        0.0453988
+AVG RATIO:         1.14994
+AVG COST:          0.1501
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        10
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 0.910194s.
+
+LOADING BENMARK...
+LOADING TIME: 3.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000354s.
+
+COMPUTING HASH...
+COMPUTING TIME: 2.43713s.
+
+BUILDING INDEX...
+THERE ARE 10 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.951s
+The 1-th R*-Tree has been built. Elapsed time: 1.013s
+The 2-th R*-Tree has been built. Elapsed time: 0.987s
+The 3-th R*-Tree has been built. Elapsed time: 0.990s
+The 4-th R*-Tree has been built. Elapsed time: 0.979s
+The 5-th R*-Tree has been built. Elapsed time: 1.040s
+The 6-th R*-Tree has been built. Elapsed time: 1.047s
+The 7-th R*-Tree has been built. Elapsed time: 1.072s
+The 8-th R*-Tree has been built. Elapsed time: 1.036s
+The 9-th R*-Tree has been built. Elapsed time: 1.017s
+BUILDING TIME: 10.1315s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    78.3216ms.
+
+TOTAL QUERY TIME:    7832.16ms.
+
+AVG RECALL:        0.5735
+AVG MAP:        0.46201
+AVG RATIO:         1.0084
+AVG COST:          0.1501
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        15
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 0.977942s.
+
+LOADING BENMARK...
+LOADING TIME: 3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000523s.
+
+COMPUTING HASH...
+COMPUTING TIME: 3.95049s.
+
+BUILDING INDEX...
+THERE ARE 15 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.023s
+The 1-th R*-Tree has been built. Elapsed time: 0.983s
+The 2-th R*-Tree has been built. Elapsed time: 0.995s
+The 3-th R*-Tree has been built. Elapsed time: 1.002s
+The 4-th R*-Tree has been built. Elapsed time: 0.999s
+The 5-th R*-Tree has been built. Elapsed time: 1.043s
+The 6-th R*-Tree has been built. Elapsed time: 1.045s
+The 7-th R*-Tree has been built. Elapsed time: 1.046s
+The 8-th R*-Tree has been built. Elapsed time: 1.054s
+The 9-th R*-Tree has been built. Elapsed time: 1.049s
+The 10-th R*-Tree has been built. Elapsed time: 1.046s
+The 11-th R*-Tree has been built. Elapsed time: 1.045s
+The 12-th R*-Tree has been built. Elapsed time: 1.038s
+The 13-th R*-Tree has been built. Elapsed time: 1.034s
+The 14-th R*-Tree has been built. Elapsed time: 0.997s
+BUILDING TIME: 15.3975s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    76.7911ms.
+
+TOTAL QUERY TIME:    7679.11ms.
+
+AVG RECALL:        0.5735
+AVG MAP:        0.46201
+AVG RATIO:         1.0084
+AVG COST:          0.1501
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        5
+K=        12
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 1.52631s.
+
+LOADING BENMARK...
+LOADING TIME: 3.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000221s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.31846s.
+
+BUILDING INDEX...
+THERE ARE 5 12-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.928s
+The 1-th R*-Tree has been built. Elapsed time: 0.939s
+The 2-th R*-Tree has been built. Elapsed time: 0.955s
+The 3-th R*-Tree has been built. Elapsed time: 0.960s
+The 4-th R*-Tree has been built. Elapsed time: 0.955s
+BUILDING TIME: 4.73727s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    82.5629ms.
+
+TOTAL QUERY TIME:    8256.29ms.
+
+AVG RECALL:        0.5893
+AVG MAP:        0.454368
+AVG RATIO:         1.00732
+AVG COST:          0.1501
+AVG ROUNDS:        1.01
+
+QUERY FINISH... 
+
+
+Using DB-LSH for seismic1m ...
+c=        1.5
+k=        100
+L=        5
+K=        14
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/seismic1m/
+N=    1000000
+dim=  256
+
+LOADING TIME: 0.95338s.
+
+LOADING BENMARK...
+LOADING TIME: 3.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000212s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.48372s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.925s
+The 1-th R*-Tree has been built. Elapsed time: 0.941s
+The 2-th R*-Tree has been built. Elapsed time: 0.930s
+The 3-th R*-Tree has been built. Elapsed time: 0.946s
+The 4-th R*-Tree has been built. Elapsed time: 0.970s
+BUILDING TIME: 4.71301s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    102.479ms.
+
+TOTAL QUERY TIME:    10247.9ms.
+
+AVG RECALL:        0.6228
+AVG MAP:        0.497872
+AVG RATIO:         1.00633
+AVG COST:          0.1501
+AVG ROUNDS:        1.09
+
+QUERY FINISH... 
+
+
