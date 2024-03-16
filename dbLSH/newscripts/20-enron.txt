@@ -1,0 +1,165 @@
+Using DB-LSH for enron ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.75
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/enron/
+N=    94987
+dim=  1369
+
+LOADING TIME: 1.14008s.
+
+LOADING BENMARK...
+LOADING TIME: 3.5e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000959s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.722638s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.043s
+The 1-th R*-Tree has been built. Elapsed time: 0.043s
+The 2-th R*-Tree has been built. Elapsed time: 0.044s
+The 3-th R*-Tree has been built. Elapsed time: 0.052s
+The 4-th R*-Tree has been built. Elapsed time: 0.044s
+BUILDING TIME: 0.226783s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    77.1909ms.
+
+TOTAL QUERY TIME:    15438.2ms.
+
+AVG RECALL:        0.99725
+AVG MAP:        0.995542
+AVG RATIO:         1.00001
+AVG COST:          0.750208
+AVG ROUNDS:        5.34
+
+QUERY FINISH... 
+
+
+Using DB-LSH for enron ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.625
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/enron/
+N=    94987
+dim=  1369
+
+LOADING TIME: 0.473378s.
+
+LOADING BENMARK...
+LOADING TIME: 2.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000877s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.757057s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.048s
+The 1-th R*-Tree has been built. Elapsed time: 0.046s
+The 2-th R*-Tree has been built. Elapsed time: 0.045s
+The 3-th R*-Tree has been built. Elapsed time: 0.045s
+The 4-th R*-Tree has been built. Elapsed time: 0.051s
+BUILDING TIME: 0.23624s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    72.4361ms.
+
+TOTAL QUERY TIME:    14487.2ms.
+
+AVG RECALL:        0.99725
+AVG MAP:        0.995542
+AVG RATIO:         1.00001
+AVG COST:          0.625201
+AVG ROUNDS:        4.775
+
+QUERY FINISH... 
+
+
+Using DB-LSH for enron ...
+c=        1.75
+k=        20
+L=        5
+K=        10
+beta=     0.5
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/enron/
+N=    94987
+dim=  1369
+
+LOADING TIME: 0.489971s.
+
+LOADING BENMARK...
+LOADING TIME: 2.4e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000884s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.769312s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.045s
+The 1-th R*-Tree has been built. Elapsed time: 0.044s
+The 2-th R*-Tree has been built. Elapsed time: 0.052s
+The 3-th R*-Tree has been built. Elapsed time: 0.056s
+The 4-th R*-Tree has been built. Elapsed time: 0.054s
+BUILDING TIME: 0.252011s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    57.9206ms.
+
+TOTAL QUERY TIME:    11584.1ms.
+
+AVG RECALL:        0.99575
+AVG MAP:        0.99338
+AVG RATIO:         1.00004
+AVG COST:          0.500205
+AVG ROUNDS:        4.655
+
+QUERY FINISH... 
+
+

@@ -1,0 +1,1100 @@
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.208967s.
+
+LOADING BENMARK...
+LOADING TIME: 0.000359s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 5.7e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.161833s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.159s
+The 1-th R*-Tree has been built. Elapsed time: 0.140s
+The 2-th R*-Tree has been built. Elapsed time: 0.146s
+The 3-th R*-Tree has been built. Elapsed time: 0.157s
+The 4-th R*-Tree has been built. Elapsed time: 0.151s
+BUILDING TIME: 0.752475s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    3.13155ms.
+
+TOTAL QUERY TIME:    313.155ms.
+
+AVG RECALL:        0.796
+AVG MAP:        0.724846
+AVG RATIO:         1.00028
+AVG COST:          0.10034
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.125
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.096861s.
+
+LOADING BENMARK...
+LOADING TIME: 3.4e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 6.5e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.174899s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.168s
+The 1-th R*-Tree has been built. Elapsed time: 0.148s
+The 2-th R*-Tree has been built. Elapsed time: 0.149s
+The 3-th R*-Tree has been built. Elapsed time: 0.154s
+The 4-th R*-Tree has been built. Elapsed time: 0.153s
+BUILDING TIME: 0.771581s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    4.51374ms.
+
+TOTAL QUERY TIME:    451.374ms.
+
+AVG RECALL:        0.8181
+AVG MAP:        0.752026
+AVG RATIO:         1.00025
+AVG COST:          0.125342
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.100038s.
+
+LOADING BENMARK...
+LOADING TIME: 3.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 6.7e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.180594s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.160s
+The 1-th R*-Tree has been built. Elapsed time: 0.157s
+The 2-th R*-Tree has been built. Elapsed time: 0.166s
+The 3-th R*-Tree has been built. Elapsed time: 0.158s
+The 4-th R*-Tree has been built. Elapsed time: 0.157s
+BUILDING TIME: 0.79805s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    6.42974ms.
+
+TOTAL QUERY TIME:    642.974ms.
+
+AVG RECALL:        0.8344
+AVG MAP:        0.769734
+AVG RATIO:         1.00022
+AVG COST:          0.150339
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.175
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.101925s.
+
+LOADING BENMARK...
+LOADING TIME: 3.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 6.3e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.180983s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.176s
+The 1-th R*-Tree has been built. Elapsed time: 0.167s
+The 2-th R*-Tree has been built. Elapsed time: 0.166s
+The 3-th R*-Tree has been built. Elapsed time: 0.164s
+The 4-th R*-Tree has been built. Elapsed time: 0.167s
+BUILDING TIME: 0.840755s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    8.1294ms.
+
+TOTAL QUERY TIME:    812.94ms.
+
+AVG RECALL:        0.8485
+AVG MAP:        0.787703
+AVG RATIO:         1.0002
+AVG COST:          0.175341
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.2
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.105113s.
+
+LOADING BENMARK...
+LOADING TIME: 3.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 7e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.202206s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.200s
+The 1-th R*-Tree has been built. Elapsed time: 0.195s
+The 2-th R*-Tree has been built. Elapsed time: 0.186s
+The 3-th R*-Tree has been built. Elapsed time: 0.193s
+The 4-th R*-Tree has been built. Elapsed time: 0.195s
+BUILDING TIME: 0.970505s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    10.9174ms.
+
+TOTAL QUERY TIME:    1091.74ms.
+
+AVG RECALL:        0.8602
+AVG MAP:        0.80415
+AVG RATIO:         1.00018
+AVG COST:          0.200342
+AVG ROUNDS:        1
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.101621s.
+
+LOADING BENMARK...
+LOADING TIME: 3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 6.8e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.206086s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.204s
+The 1-th R*-Tree has been built. Elapsed time: 0.196s
+The 2-th R*-Tree has been built. Elapsed time: 0.196s
+The 3-th R*-Tree has been built. Elapsed time: 0.194s
+The 4-th R*-Tree has been built. Elapsed time: 0.194s
+BUILDING TIME: 0.98292s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    5.53279ms.
+
+TOTAL QUERY TIME:    553.279ms.
+
+AVG RECALL:        0.6335
+AVG MAP:        0.529452
+AVG RATIO:         1.0009
+AVG COST:          0.10034
+AVG ROUNDS:        6
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.125
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.108684s.
+
+LOADING BENMARK...
+LOADING TIME: 3.4e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 7.1e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.185146s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.199s
+The 1-th R*-Tree has been built. Elapsed time: 0.186s
+The 2-th R*-Tree has been built. Elapsed time: 0.195s
+The 3-th R*-Tree has been built. Elapsed time: 0.195s
+The 4-th R*-Tree has been built. Elapsed time: 0.187s
+BUILDING TIME: 0.961941s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    7.16365ms.
+
+TOTAL QUERY TIME:    716.365ms.
+
+AVG RECALL:        0.6602
+AVG MAP:        0.561805
+AVG RATIO:         1.00084
+AVG COST:          0.125342
+AVG ROUNDS:        6.01
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.104176s.
+
+LOADING BENMARK...
+LOADING TIME: 3.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 6.7e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.181827s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.197s
+The 1-th R*-Tree has been built. Elapsed time: 0.194s
+The 2-th R*-Tree has been built. Elapsed time: 0.196s
+The 3-th R*-Tree has been built. Elapsed time: 0.192s
+The 4-th R*-Tree has been built. Elapsed time: 0.192s
+BUILDING TIME: 0.970796s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    8.84381ms.
+
+TOTAL QUERY TIME:    884.381ms.
+
+AVG RECALL:        0.6772
+AVG MAP:        0.581915
+AVG RATIO:         1.00081
+AVG COST:          0.150339
+AVG ROUNDS:        6.01
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.175
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.104763s.
+
+LOADING BENMARK...
+LOADING TIME: 3.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 6.7e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.182834s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.194s
+The 1-th R*-Tree has been built. Elapsed time: 0.187s
+The 2-th R*-Tree has been built. Elapsed time: 0.195s
+The 3-th R*-Tree has been built. Elapsed time: 0.192s
+The 4-th R*-Tree has been built. Elapsed time: 0.193s
+BUILDING TIME: 0.960051s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    10.2343ms.
+
+TOTAL QUERY TIME:    1023.43ms.
+
+AVG RECALL:        0.6901
+AVG MAP:        0.597912
+AVG RATIO:         1.00079
+AVG COST:          0.175341
+AVG ROUNDS:        6.01
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.2
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.104141s.
+
+LOADING BENMARK...
+LOADING TIME: 3.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 7.3e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.182041s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.194s
+The 1-th R*-Tree has been built. Elapsed time: 0.185s
+The 2-th R*-Tree has been built. Elapsed time: 0.184s
+The 3-th R*-Tree has been built. Elapsed time: 0.183s
+The 4-th R*-Tree has been built. Elapsed time: 0.187s
+BUILDING TIME: 0.932617s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    12.8711ms.
+
+TOTAL QUERY TIME:    1287.11ms.
+
+AVG RECALL:        0.6996
+AVG MAP:        0.610844
+AVG RATIO:         1.00077
+AVG COST:          0.200342
+AVG ROUNDS:        6.01
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.101944s.
+
+LOADING BENMARK...
+LOADING TIME: 3.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 6.6e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.181517s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.202s
+The 1-th R*-Tree has been built. Elapsed time: 0.184s
+The 2-th R*-Tree has been built. Elapsed time: 0.206s
+The 3-th R*-Tree has been built. Elapsed time: 0.212s
+The 4-th R*-Tree has been built. Elapsed time: 0.195s
+BUILDING TIME: 0.99927s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    6.98431ms.
+
+TOTAL QUERY TIME:    698.431ms.
+
+AVG RECALL:        0.7029
+AVG MAP:        0.632634
+AVG RATIO:         1.00044
+AVG COST:          0.10034
+AVG ROUNDS:        1.07
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.125
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.106151s.
+
+LOADING BENMARK...
+LOADING TIME: 3.4e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 6.8e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.181028s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.231s
+The 1-th R*-Tree has been built. Elapsed time: 0.209s
+The 2-th R*-Tree has been built. Elapsed time: 0.214s
+The 3-th R*-Tree has been built. Elapsed time: 0.202s
+The 4-th R*-Tree has been built. Elapsed time: 0.202s
+BUILDING TIME: 1.0576s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    9.21465ms.
+
+TOTAL QUERY TIME:    921.465ms.
+
+AVG RECALL:        0.7248
+AVG MAP:        0.657931
+AVG RATIO:         1.0004
+AVG COST:          0.125342
+AVG ROUNDS:        1.07
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.106305s.
+
+LOADING BENMARK...
+LOADING TIME: 3.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 6.8e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.181936s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.220s
+The 1-th R*-Tree has been built. Elapsed time: 0.217s
+The 2-th R*-Tree has been built. Elapsed time: 0.230s
+The 3-th R*-Tree has been built. Elapsed time: 0.219s
+The 4-th R*-Tree has been built. Elapsed time: 0.221s
+BUILDING TIME: 1.10637s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    13.051ms.
+
+TOTAL QUERY TIME:    1305.1ms.
+
+AVG RECALL:        0.74
+AVG MAP:        0.673504
+AVG RATIO:         1.00037
+AVG COST:          0.150339
+AVG ROUNDS:        1.07
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.175
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.107704s.
+
+LOADING BENMARK...
+LOADING TIME: 3.9e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 6.7e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.181777s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.221s
+The 1-th R*-Tree has been built. Elapsed time: 0.220s
+The 2-th R*-Tree has been built. Elapsed time: 0.211s
+The 3-th R*-Tree has been built. Elapsed time: 0.213s
+The 4-th R*-Tree has been built. Elapsed time: 0.217s
+BUILDING TIME: 1.08163s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    14.5299ms.
+
+TOTAL QUERY TIME:    1452.99ms.
+
+AVG RECALL:        0.7518
+AVG MAP:        0.688012
+AVG RATIO:         1.00035
+AVG COST:          0.175341
+AVG ROUNDS:        1.07
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        10
+beta=     0.2
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.110613s.
+
+LOADING BENMARK...
+LOADING TIME: 3.3e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 6.7e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.182481s.
+
+BUILDING INDEX...
+THERE ARE 5 10-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.230s
+The 1-th R*-Tree has been built. Elapsed time: 0.235s
+The 2-th R*-Tree has been built. Elapsed time: 0.226s
+The 3-th R*-Tree has been built. Elapsed time: 0.221s
+The 4-th R*-Tree has been built. Elapsed time: 0.232s
+BUILDING TIME: 1.14417s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    18.2785ms.
+
+TOTAL QUERY TIME:    1827.85ms.
+
+AVG RECALL:        0.7616
+AVG MAP:        0.700734
+AVG RATIO:         1.00033
+AVG COST:          0.200342
+AVG ROUNDS:        1.07
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.107091s.
+
+LOADING BENMARK...
+LOADING TIME: 3.5e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 8.4e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.250314s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.322s
+The 1-th R*-Tree has been built. Elapsed time: 0.306s
+The 2-th R*-Tree has been built. Elapsed time: 0.316s
+The 3-th R*-Tree has been built. Elapsed time: 0.296s
+The 4-th R*-Tree has been built. Elapsed time: 0.269s
+BUILDING TIME: 1.50848s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    6.21077ms.
+
+TOTAL QUERY TIME:    621.077ms.
+
+AVG RECALL:        0.5805
+AVG MAP:        0.498189
+AVG RATIO:         1.00081
+AVG COST:          0.10034
+AVG ROUNDS:        6.21
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        14
+beta=     0.125
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.105718s.
+
+LOADING BENMARK...
+LOADING TIME: 3.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 9e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.247078s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.303s
+The 1-th R*-Tree has been built. Elapsed time: 0.302s
+The 2-th R*-Tree has been built. Elapsed time: 0.287s
+The 3-th R*-Tree has been built. Elapsed time: 0.272s
+The 4-th R*-Tree has been built. Elapsed time: 0.304s
+BUILDING TIME: 1.46854s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    9.33624ms.
+
+TOTAL QUERY TIME:    933.624ms.
+
+AVG RECALL:        0.5911
+AVG MAP:        0.509919
+AVG RATIO:         1.00078
+AVG COST:          0.125342
+AVG ROUNDS:        6.21
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        14
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.111759s.
+
+LOADING BENMARK...
+LOADING TIME: 3.7e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 8.5e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.248577s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.300s
+The 1-th R*-Tree has been built. Elapsed time: 0.268s
+The 2-th R*-Tree has been built. Elapsed time: 0.310s
+The 3-th R*-Tree has been built. Elapsed time: 0.303s
+The 4-th R*-Tree has been built. Elapsed time: 0.284s
+BUILDING TIME: 1.46536s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    11.4421ms.
+
+TOTAL QUERY TIME:    1144.21ms.
+
+AVG RECALL:        0.5966
+AVG MAP:        0.517016
+AVG RATIO:         1.00077
+AVG COST:          0.150339
+AVG ROUNDS:        6.21
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        14
+beta=     0.175
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.106091s.
+
+LOADING BENMARK...
+LOADING TIME: 3.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 8.5e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.24823s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.295s
+The 1-th R*-Tree has been built. Elapsed time: 0.280s
+The 2-th R*-Tree has been built. Elapsed time: 0.289s
+The 3-th R*-Tree has been built. Elapsed time: 0.283s
+The 4-th R*-Tree has been built. Elapsed time: 0.288s
+BUILDING TIME: 1.43464s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    14.1585ms.
+
+TOTAL QUERY TIME:    1415.85ms.
+
+AVG RECALL:        0.6009
+AVG MAP:        0.522205
+AVG RATIO:         1.00076
+AVG COST:          0.175341
+AVG ROUNDS:        6.21
+
+QUERY FINISH... 
+
+
+Using DB-LSH for lastfm ...
+c=        1.5
+k=        100
+L=        5
+K=        14
+beta=     0.2
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/lastfm/
+N=    292385
+dim=  65
+
+LOADING TIME: 0.111151s.
+
+LOADING BENMARK...
+LOADING TIME: 3.2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 8.6e-05s.
+
+COMPUTING HASH...
+COMPUTING TIME: 0.248945s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 0.289s
+The 1-th R*-Tree has been built. Elapsed time: 0.272s
+The 2-th R*-Tree has been built. Elapsed time: 0.276s
+The 3-th R*-Tree has been built. Elapsed time: 0.289s
+The 4-th R*-Tree has been built. Elapsed time: 0.292s
+BUILDING TIME: 1.41787s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 100
+
+AVG QUERY TIME:    14.6331ms.
+
+TOTAL QUERY TIME:    1463.31ms.
+
+AVG RECALL:        0.6053
+AVG MAP:        0.527324
+AVG RATIO:         1.00074
+AVG COST:          0.200342
+AVG ROUNDS:        6.21
+
+QUERY FINISH... 
+
+

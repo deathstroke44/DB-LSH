@@ -1,0 +1,330 @@
+Using DB-LSH for glove ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/glove/
+N=    1192514
+dim=  100
+
+LOADING TIME: 1.36121s.
+
+LOADING BENMARK...
+LOADING TIME: 4.8e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000193s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.18075s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.235s
+The 1-th R*-Tree has been built. Elapsed time: 1.195s
+The 2-th R*-Tree has been built. Elapsed time: 1.182s
+The 3-th R*-Tree has been built. Elapsed time: 1.211s
+The 4-th R*-Tree has been built. Elapsed time: 1.210s
+BUILDING TIME: 6.03341s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    119.68ms.
+
+TOTAL QUERY TIME:    23936ms.
+
+AVG RECALL:        0.80125
+AVG MAP:        0.706751
+AVG RATIO:         1.00506
+AVG COST:          0.100016
+AVG ROUNDS:        4.73
+
+QUERY FINISH... 
+
+
+Using DB-LSH for glove ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/glove/
+N=    1192514
+dim=  100
+
+LOADING TIME: 0.558992s.
+
+LOADING BENMARK...
+LOADING TIME: 2.5e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000116s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.18356s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.247s
+The 1-th R*-Tree has been built. Elapsed time: 1.227s
+The 2-th R*-Tree has been built. Elapsed time: 1.214s
+The 3-th R*-Tree has been built. Elapsed time: 1.224s
+The 4-th R*-Tree has been built. Elapsed time: 1.239s
+BUILDING TIME: 6.15112s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    138.066ms.
+
+TOTAL QUERY TIME:    27613.3ms.
+
+AVG RECALL:        0.871
+AVG MAP:        0.801069
+AVG RATIO:         1.00299
+AVG COST:          0.150017
+AVG ROUNDS:        4.92
+
+QUERY FINISH... 
+
+
+Using DB-LSH for glove ...
+c=        1.5
+k=        20
+L=        5
+K=        14
+beta=     0.2
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/glove/
+N=    1192514
+dim=  100
+
+LOADING TIME: 0.487812s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000102s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.02506s.
+
+BUILDING INDEX...
+THERE ARE 5 14-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.112s
+The 1-th R*-Tree has been built. Elapsed time: 1.080s
+The 2-th R*-Tree has been built. Elapsed time: 1.080s
+The 3-th R*-Tree has been built. Elapsed time: 1.084s
+The 4-th R*-Tree has been built. Elapsed time: 1.100s
+BUILDING TIME: 5.45568s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    159.675ms.
+
+TOTAL QUERY TIME:    31934.9ms.
+
+AVG RECALL:        0.9205
+AVG MAP:        0.878144
+AVG RATIO:         1.00159
+AVG COST:          0.200016
+AVG ROUNDS:        5.005
+
+QUERY FINISH... 
+
+
+Using DB-LSH for glove ...
+c=        1.5
+k=        20
+L=        5
+K=        16
+beta=     0.1
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/glove/
+N=    1192514
+dim=  100
+
+LOADING TIME: 0.496132s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.00011s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.14721s.
+
+BUILDING INDEX...
+THERE ARE 5 16-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.121s
+The 1-th R*-Tree has been built. Elapsed time: 1.110s
+The 2-th R*-Tree has been built. Elapsed time: 1.093s
+The 3-th R*-Tree has been built. Elapsed time: 1.098s
+The 4-th R*-Tree has been built. Elapsed time: 1.111s
+BUILDING TIME: 5.53235s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    123.716ms.
+
+TOTAL QUERY TIME:    24743.1ms.
+
+AVG RECALL:        0.822
+AVG MAP:        0.731576
+AVG RATIO:         1.00412
+AVG COST:          0.100016
+AVG ROUNDS:        4.95
+
+QUERY FINISH... 
+
+
+Using DB-LSH for glove ...
+c=        1.5
+k=        20
+L=        5
+K=        16
+beta=     0.15
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/glove/
+N=    1192514
+dim=  100
+
+LOADING TIME: 0.498294s.
+
+LOADING BENMARK...
+LOADING TIME: 2e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000112s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.13651s.
+
+BUILDING INDEX...
+THERE ARE 5 16-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.140s
+The 1-th R*-Tree has been built. Elapsed time: 1.127s
+The 2-th R*-Tree has been built. Elapsed time: 1.112s
+The 3-th R*-Tree has been built. Elapsed time: 1.123s
+The 4-th R*-Tree has been built. Elapsed time: 1.130s
+BUILDING TIME: 5.63136s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    149.177ms.
+
+TOTAL QUERY TIME:    29835.3ms.
+
+AVG RECALL:        0.89025
+AVG MAP:        0.825686
+AVG RATIO:         1.0024
+AVG COST:          0.150017
+AVG ROUNDS:        5.025
+
+QUERY FINISH... 
+
+
+Using DB-LSH for glove ...
+c=        1.5
+k=        20
+L=        5
+K=        16
+beta=     0.2
+LOADING DATA...
+Load from new file: /data/kabir/similarity-search/dataset/glove/
+N=    1192514
+dim=  100
+
+LOADING TIME: 0.501396s.
+
+LOADING BENMARK...
+LOADING TIME: 2.1e-05s.
+
+
+START HASHING...
+
+SETTING HASH PARAMETER...
+SETTING TIME: 0.000115s.
+
+COMPUTING HASH...
+COMPUTING TIME: 1.14149s.
+
+BUILDING INDEX...
+THERE ARE 5 16-D HASH TABLES.
+The 0-th R*-Tree has been built. Elapsed time: 1.135s
+The 1-th R*-Tree has been built. Elapsed time: 1.103s
+The 2-th R*-Tree has been built. Elapsed time: 1.110s
+The 3-th R*-Tree has been built. Elapsed time: 1.104s
+The 4-th R*-Tree has been built. Elapsed time: 1.104s
+BUILDING TIME: 5.55618s.
+
+
+RUNNING QUERY ...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+k=                 20
+
+AVG QUERY TIME:    173.858ms.
+
+TOTAL QUERY TIME:    34771.6ms.
+
+AVG RECALL:        0.9295
+AVG MAP:        0.88681
+AVG RATIO:         1.00136
+AVG COST:          0.200016
+AVG ROUNDS:        5.065
+
+QUERY FINISH... 
+
+
