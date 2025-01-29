@@ -11,6 +11,6 @@ do
     beta=0.1
     R_min=0.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-1
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-1
 
 done

@@ -11,7 +11,7 @@ do
     beta=0.1
     R_min=0.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-1
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-1
 
     c=1.75
     L=5
@@ -19,7 +19,7 @@ do
     beta=0.1
     R_min=0.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-2
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-2
 
     c=1.25
     L=5
@@ -27,7 +27,7 @@ do
     beta=0.1
     R_min=0.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-3
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-3
 
     c=1.5
     L=10
@@ -35,7 +35,7 @@ do
     beta=0.1
     R_min=0.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-4
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-4
 
     c=1.5
     L=15
@@ -43,7 +43,7 @@ do
     beta=0.1
     R_min=0.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-5
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-5
 
     c=1.5
     L=5
@@ -51,7 +51,7 @@ do
     beta=0.1
     R_min=0.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-6
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-6
 
     c=1.5
     L=5
@@ -59,7 +59,7 @@ do
     beta=0.1
     R_min=0.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-7
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-7
 
     c=1.5
     L=5
@@ -67,7 +67,7 @@ do
     beta=0.1
     R_min=6.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-8
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-8
 
     c=1.75
     L=5
@@ -75,7 +75,7 @@ do
     beta=0.1
     R_min=6.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-9
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-9
 
     c=1.25
     L=5
@@ -83,7 +83,7 @@ do
     beta=0.1
     R_min=6.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-10
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-10
 
     c=1.5
     L=5
@@ -91,7 +91,7 @@ do
     beta=0.1
     R_min=300
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-11
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-11
 
     c=1.5
     L=5
@@ -99,7 +99,7 @@ do
     beta=0.1
     R_min=600
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-12
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-12
 
     c=1.5
     L=10
@@ -107,7 +107,7 @@ do
     beta=0.1
     R_min=6.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-13
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-13
 
     c=1.5
     L=15
@@ -115,7 +115,7 @@ do
     beta=0.1
     R_min=6.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-14
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-14
 
     c=1.5
     L=5
@@ -123,7 +123,7 @@ do
     beta=0.1
     R_min=6.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-15
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-15
 
     c=1.5
     L=5
@@ -131,6 +131,6 @@ do
     beta=0.1
     R_min=6.50
 
-    ./dblsh $datasetName $c $k $L $K $beta $R_min > ${datasetName}-16
+    ./dblsh $datasetName $c $k $L $K $beta $R_min # > ${datasetName}-16
 
 done
